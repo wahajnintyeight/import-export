@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/about', [PagesController::class, 'view_about'])->name('about');
 Route::get('/services', [PagesController::class, 'view_services'])->name('services');
 Route::get('/contact', [PagesController::class, 'view_contact_page'])->name('contact');
+// Route::post('/add-contact', [PagesController::class], 'create')->name('store-contact');

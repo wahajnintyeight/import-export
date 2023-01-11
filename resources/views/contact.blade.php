@@ -92,7 +92,8 @@
                     <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
                     <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you
                         shortly.</p>
-                    <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+                    <form class="contact-form needs-validation" method="post" action="{{ route('store-contact') }}"
+                        novalidate>
                         <div class="messages"></div>
                         <div class="row gx-4">
                             <div class="col-md-6">
