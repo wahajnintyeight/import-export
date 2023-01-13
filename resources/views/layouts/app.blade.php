@@ -76,7 +76,7 @@
                     <div class="navbar-other w-100 d-flex ms-auto">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <li class="nav-item d-none d-md-block">
-                                <a href="{{ route('contact') }}" class="btn btn-primary rounded-pill">Catalog</a>
+                                <a href="{{ route('catalog') }}" class="btn btn-primary rounded-pill">Catalog</a>
                             </li>
                             <li class="nav-item d-lg-none">
                                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
@@ -91,7 +91,7 @@
             <!-- /.navbar -->
             <a href="https://api.whatsapp.com/send?phone=51000000000" class="whatsapp-button"
                 style="z-index: 99999 !important;" target="_blank">
-                <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp">
+                <img src="{{ asset('assets/img/whatsapp-button.png') }}" alt="botão whatsapp">
             </a>
         </header>
         @yield('content')
@@ -121,9 +121,14 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                        <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom
+                        <address class="pe-xl-15 pe-xxl-17">Former Princess ltd <br>
+                            Unit A2 Lord North Street <br>
+                            Manchester M40 2HJ
                         </address>
-                        <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
+                        <a href="mailto:office@ghubtrading.co.uk">office@ghubtrading.co.uk</a>
+                        <br>
+                        <a href="mailto:accounts@ghubtrading.co.uk">accounts@ghubtrading.co.uk</a>
+                        <br /> +44-7716-295728
                     </div>
                     <!-- /.widget -->
                 </div>
@@ -132,9 +137,9 @@
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Learn More</h4>
                         <ul class="list-unstyled  mb-0">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Projects</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            {{-- <li><a href="#">Our Story</a></li> --}}
+                            {{-- <li><a href="#">Projects</a></li> --}}
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>

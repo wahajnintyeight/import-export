@@ -27,25 +27,25 @@
                                 data-image-src="{{ '/assets/img/photos/bg3.jpg' }}">
                                 <div class="card-body p-9 p-xl-10">
                                     <div class="row align-items-center counter-wrapper gy-4 text-center">
-                                        <div class="col-6 col-lg-3">
-                                            <h3 class="counter counter-lg text-white">7518</h3>
+                                        <div class="col-6 col-lg-4">
+                                            <h3 class="counter counter-lg text-white">150</h3>
                                             <p>Completed Projects</p>
                                         </div>
                                         <!--/column -->
-                                        <div class="col-6 col-lg-3">
-                                            <h3 class="counter counter-lg text-white">3472</h3>
+                                        <div class="col-6 col-lg-4">
+                                            <h3 class="counter counter-lg text-white">300</h3>
                                             <p>Satisfied Customers</p>
                                         </div>
                                         <!--/column -->
-                                        <div class="col-6 col-lg-3">
-                                            <h3 class="counter counter-lg text-white">2184</h3>
+                                        <div class="col-6 col-lg-4">
+                                            <h3 class="counter counter-lg text-white">200</h3>
                                             <p>Expert Employees</p>
                                         </div>
                                         <!--/column -->
-                                        <div class="col-6 col-lg-3">
+                                        {{-- <div class="col-6 col-lg-3">
                                             <h3 class="counter counter-lg text-white">4523</h3>
                                             <p>Awards Won</p>
-                                        </div>
+                                        </div> --}}
                                         <!--/column -->
                                     </div>
                                     <!--/.row -->
@@ -156,45 +156,89 @@
                 <!--/column -->
             </div>
             <!--/.row -->
-            <h2 class="display-4 mb-3">How We Do It?</h2>
-            <p class="lead fs-lg mb-8">We make your spending <span class="underline">stress-free</span> for you to have the
-                perfect control.</p>
-            <div class="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">
-                <div class="col-md-6 col-lg-3"> <span
-                        class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span
-                            class="number">01</span></span>
-                    <h4 class="mb-1">Concept</h4>
-                    <p>Nulla vitae elit libero elit non porta gravida eget metus cras. Aenean eu leo quam. Pellentesque
-                        ornare.</p>
+            <section class="wrapper bg-light">
+                <div class="container pb-4 pb-md-6">
+                    <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-14"
+                        data-image-src="./assets/img/photos/bg16.png">
+                        <div class="card-body p-10 p-xl-12">
+                            <div class="row text-center">
+                                <div class="col-xl-11 col-xxl-9 mx-auto">
+                                    <h2 class="fs-16 text-uppercase text-white mb-3">Join Our Community</h2>
+                                    <h3 class="display-3 mb-8 px-lg-8 text-white">We are <span
+                                            class="underline-3 style-2 yellow">trusted</span> by over 200+ clients. Join
+                                        them now and grow your business.</h3>
+                                </div>
+                                <!-- /column -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="d-flex justify-content-center">
+                                <span><a class="btn btn-white rounded">Get Started</a></span>
+                            </div>
+                        </div>
+                        <!--/.card-body -->
+                    </div>
+                    <!--/.card -->
                 </div>
-                <!--/column -->
-                <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span
-                            class="number">02</span></span>
-                    <h4 class="mb-1">Prepare</h4>
-                    <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.</p>
+                <!-- /.container -->
+            </section>
+            <!-- /section -->
+            <section class="wrapper bg-light">
+                <div class="container py-8 py-md-8">
+                    <div class="row">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <h2 class="fs-15 text-uppercase text-muted mb-3">How We Do It?</h2>
+                            <h3 class="display-4 mb-9">The service we offer is specifically designed to meet your needs.
+                            </h3>
+                        </div>
+                        <!-- /column -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="row gx-md-8 gy-8">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="icon btn btn-block btn-lg btn-soft-yellow disabled mb-5"> <i
+                                    class="uil uil-phone-volume"></i> </div>
+                            <h4>24/7 Support</h4>
+                            <p class="mb-3">One of the key ways we do this is through our 24/7 support. We understand
+                                that the needs of our clients are not limited to traditional business hours, so we make
+                                ourselves available around the clock to ensure that their needs are met in a timely and
+                                efficient manner. </p>
+                            <a href="#" class="more hover link-yellow">Learn More</a>
+                        </div>
+                        <!--/column -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="icon btn btn-block btn-lg btn-soft-red disabled mb-5"> <i
+                                    class="uil uil-shield-exclamation"></i> </div>
+                            <h4>Secure Payments</h4>
+                            <p class="mb-3">We understand the importance of secure and reliable payment options for our
+                                clients. That's why we offer secure payments for all our services. Our online payment
+                                gateway is encrypted to ensure that your financial information is protected at all times.
+                            </p>
+                            <a href="#" class="more hover link-red">Learn More</a>
+                        </div>
+                        <!--/column -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="icon btn btn-block btn-lg btn-soft-leaf disabled mb-5"> <i
+                                    class="uil uil-laptop-cloud"></i> </div>
+                            <h4>Daily Updates</h4>
+                            <p class="mb-3">we understand the importance of keeping our clients informed and updated
+                                throughout the import/export process. One of the key ways we do this is through our daily
+                                updates.</p>
+                            <a href="#" class="more hover link-leaf">Learn More</a>
+                        </div>
+                        <!--/column -->
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
                 </div>
-                <!--/column -->
-                <div class="col-md-6 col-lg-3"> <span
-                        class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span
-                            class="number">03</span></span>
-                    <h4 class="mb-1">Retouch</h4>
-                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.</p>
-                </div>
-                <!--/column -->
-                <div class="col-md-6 col-lg-3"> <span
-                        class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span
-                            class="number">04</span></span>
-                    <h4 class="mb-1">Finalize</h4>
-                    <p>Integer posuere erat, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <!--/column -->
-            </div>
+                <!-- /.container -->
+            </section>
+            <!-- /section -->
             <!--/.row -->
         </div>
         <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="{{ '/assets/img/photos/bg1.jpg' }}">
+    <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="{{ '/assets/img/workers/w4.jpg' }}">
         <div class="container py-18 text-center">
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-xxl-8 mx-auto">
@@ -210,147 +254,52 @@
         </div>
         <!-- /.container -->
     </section>
-    <!-- /section -->
-    <section class="wrapper bg-light angled upper-end">
-        <div class="container py-14 py-md-16">
-            <div class="row gx-lg-8 gx-xl-12 gy-6 mb-10 mb-md-18">
-                <div class="col-lg-4">
-                    <h2 class="display-4 mt-lg-18 mb-3">Our Pricing</h2>
-                    <p class="lead fs-lg">We offer <span class="underline">great prices</span>, premium and quality
-                        products for your business.</p>
-                    <p>Enjoy a <a href="#" class="hover">free 30-day trial</a> and experience the full service. No
-                        credit card required!</p>
-                    <a href="#" class="btn btn-primary rounded-pill mt-2">See All Prices</a>
+    <section class="wrapper bg-light">
+        <div class="container pt-14 pt-md-16">
+            <div class="row">
+                <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+                    <h2 class="fs-15 text-uppercase text-muted mb-3">Latest Projects</h2>
+                    <h3 class="display-4 mb-10">Check out some of our awesome projects with creative ideas and great
+                        design.</h3>
                 </div>
-                <!--/column -->
-                <div class="col-lg-7 offset-lg-1 pricing-wrapper">
-                    <div class="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
-                        <p class="mb-0 pe-3">Monthly</p>
-                        <div class="pricing-switchers">
-                            <div class="pricing-switcher pricing-switcher-active"></div>
-                            <div class="pricing-switcher"></div>
-                            <div class="switcher-button bg-primary"></div>
-                        </div>
-                        <p class="mb-0 ps-3">Yearly <span class="text-red">(Save 30%)</span></p>
-                    </div>
-                    <div class="row gy-6 position-relative mt-5">
-                        <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1"
-                            style="bottom: -0.5rem; right: -1.6rem;"></div>
-                        <div class="shape rounded-circle bg-line red rellax w-18 h-18" data-rellax-speed="1"
-                            style="top: -1rem; left: -2rem;"></div>
-                        <div class="col-md-6">
-                            <div class="pricing card">
-                                <div class="card-body pb-12">
-                                    <div class="prices text-dark">
-                                        <div class="price price-show"><span class="price-currency">$</span><span
-                                                class="price-value">19</span> <span class="price-duration">month</span>
-                                        </div>
-                                        <div class="price price-hide price-hidden"><span
-                                                class="price-currency">$</span><span class="price-value">199</span> <span
-                                                class="price-duration">year</span></div>
-                                    </div>
-                                    <!--/.prices -->
-                                    <h4 class="card-title mt-2">Premium Plan</h4>
-                                    <ul class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9">
-                                        <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                                        <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span>
-                                        </li>
-                                        <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                                        <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                        <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24
-                                                <strong>Support</strong></span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
-                                </div>
-                                <!--/.card-body -->
-                            </div>
-                            <!--/.pricing -->
-                        </div>
-                        <!--/column -->
-                        <div class="col-md-6 popular">
-                            <div class="pricing card">
-                                <div class="card-body pb-12">
-                                    <div class="prices text-dark">
-                                        <div class="price price-show"><span class="price-currency">$</span><span
-                                                class="price-value">49</span> <span class="price-duration">month</span>
-                                        </div>
-                                        <div class="price price-hide price-hidden"><span
-                                                class="price-currency">$</span><span class="price-value">499</span> <span
-                                                class="price-duration">year</span></div>
-                                    </div>
-                                    <!--/.prices -->
-                                    <h4 class="card-title mt-2">Corporate Plan</h4>
-                                    <ul class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9">
-                                        <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                                        <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span>
-                                        </li>
-                                        <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                                        <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                        <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
-                                </div>
-                                <!--/.card-body -->
-                            </div>
-                            <!--/.pricing -->
-                        </div>
-                        <!--/column -->
-                    </div>
-                    <!--/.row -->
-                </div>
-                <!--/column -->
+                <!-- /column -->
             </div>
-            <!--/.row -->
-            <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-center">
-                <div class="col-lg-7 position-relative">
-                    <div class="shape bg-dot primary rellax w-18 h-18" data-rellax-speed="1"
-                        style="top: 0; left: -1.4rem; z-index: 0;"></div>
-                    <div class="row gx-md-5 gy-5">
-                        <div class="col-md-6">
-                            <figure class="rounded mt-md-10 position-relative"><img
-                                    src="{{ '/assets/img/photos/g5.jpg' }}"
-                                    srcset="{{ '/assets/img/photos/g5@2x.jpg' }} 2x" alt=""></figure>
-                        </div>
-                        <!--/column -->
-                        <div class="col-md-6">
-                            <div class="row gx-md-5 gy-5">
-                                <div class="col-md-12 order-md-2">
-                                    <figure class="rounded"><img src="{{ '/assets/img/photos/g6.jpg' }}"
-                                            srcset="{{ '/assets/img/photos/g6@2x.jpg' }} 2x" alt=""></figure>
-                                </div>
-                                <!--/column -->
-                                <div class="col-md-10">
-                                    <div class="card bg-pale-primary text-center">
-                                        <div class="card-body py-11 counter-wrapper">
-                                            <h3 class="counter text-nowrap">5000+</h3>
-                                            <p class="mb-0">Satisfied Customers</p>
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!--/.card -->
-                                </div>
-                                <!--/column -->
-                            </div>
-                            <!--/.row -->
-                        </div>
-                        <!--/column -->
-                    </div>
-                    <!--/.row -->
-                </div>
-                <!--/column -->
-                <div class="col-lg-5">
-                    <h2 class="display-4 mb-3">Let’s Talk</h2>
-                    <p class="lead fs-lg">Let's make something great together. We are <span class="underline">trusted
-                            by</span> over 5000+ clients. Join them by using our services and grow your business.</p>
-                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus
-                        mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                        fermentum massa justo sit amet risus.</p>
-                    <a href="#" class="btn btn-primary rounded-pill mt-2">Join Us</a>
-                </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
+            <!-- /.row -->
         </div>
         <!-- /.container -->
+        <div class="container-fluid px-md-6">
+            <div class="swiper-container blog grid-view mb-17 mb-md-19" data-margin="30" data-nav="true"
+                data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <figure class="rounded"><img src="./assets/img/containers/c8.jpg" alt="" /></figure>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <figure class="rounded"><img src="./assets/img/containers/c9.jpg" alt="" /></figure>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <figure class="rounded"><img src="./assets/img/containers/c10.jpg" alt="" /></figure>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                            <figure class="rounded"><img src="./assets/img/photos/pp13.jpg" alt="" /></figure>
+                        </div>
+                        <!--/.swiper-slide -->
+                    </div>
+                    <!--/.swiper-wrapper -->
+                </div>
+                <!-- /.swiper -->
+            </div>
+            <!-- /.swiper-container -->
+        </div>
+        <!-- /.container-fluid -->
     </section>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
 @endsection

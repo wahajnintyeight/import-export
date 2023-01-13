@@ -45,8 +45,10 @@
                                         </div>
                                         <div class="align-self-start justify-content-start">
                                             <h5 class="mb-1">Address</h5>
-                                            <address>Moonshine St. 14/05 Light City, <br class="d-none d-md-block" />London,
-                                                United Kingdom</address>
+                                            <address>Former Princess ltd
+                                                Unit A2 Lord North Street
+                                                <br class="d-none d-md-block" />Manchester M40 2HJ
+                                            </address>
                                         </div>
                                     </div>
                                     <!--/div -->
@@ -57,7 +59,7 @@
                                         </div>
                                         <div>
                                             <h5 class="mb-1">Phone</h5>
-                                            <p>00 (123) 456 78 90 <br />00 (987) 654 32 10</p>
+                                            <p>+44-7716-295728</p>
                                         </div>
                                     </div>
                                     <!--/div -->
@@ -68,10 +70,10 @@
                                         </div>
                                         <div>
                                             <h5 class="mb-1">E-mail</h5>
-                                            <p class="mb-0"><a href="mailto:sandbox@email.com"
-                                                    class="link-body">sandbox@email.com</a></p>
-                                            <p class="mb-0"><a href="mailto:help@sandbox.com"
-                                                    class="link-body">help@sandbox.com</a></p>
+                                            <p class="mb-0"><a href="mailto:office@ghubtrading.co.uk"
+                                                    class="link-body">office@ghubtrading.co.uk</a></p>
+                                            <p class="mb-0"><a href="mailto:accounts@ghubtrading.co.uk"
+                                                    class="link-body">accounts@ghubtrading.co.uk</a></p>
                                         </div>
                                     </div>
                                     <!--/div -->
@@ -92,50 +94,24 @@
                     <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
                     <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you
                         shortly.</p>
-                    <form class="contact-form needs-validation" method="post" action="{{ route('store-contact') }}"
-                        novalidate>
+                    <form class="contact-form" method="post" action="{{ route('store-contact') }}">
+                        @csrf
+                        @method('POST')
                         <div class="messages"></div>
                         <div class="row gx-4">
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
-                                    <input id="form_name" type="text" name="name" class="form-control bg-gray-500"
+                                    <input id="form_name" type="text" name="name" class="form-control bg-neutral-300"
                                         placeholder="Jane" required>
                                     <label for="form_name">First Name *</label>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                    <div class="invalid-feedback"> Please enter your first name. </div>
                                 </div>
                             </div>
-                            <!-- /column -->
-                            <div class="col-md-6">
-                                <div class="form-floating mb-4">
-                                    <input id="form_lastname" type="text" name="surname" class="form-control"
-                                        placeholder="Doe" required>
-                                    <label for="form_lastname">Last Name *</label>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                    <div class="invalid-feedback"> Please enter your last name. </div>
-                                </div>
-                            </div>
-                            <!-- /column -->
+
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
                                     <input id="form_email" type="email" name="email" class="form-control"
                                         placeholder="jane.doe@example.com" required>
                                     <label for="form_email">Email *</label>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                    <div class="invalid-feedback"> Please provide a valid email address. </div>
-                                </div>
-                            </div>
-                            <!-- /column -->
-                            <div class="col-md-6">
-                                <div class="form-select-wrapper mb-4">
-                                    <select class="form-select" id="form-select" name="department" required>
-                                        <option selected disabled value="">Select a department</option>
-                                        <option value="Sales">Sales</option>
-                                        <option value="Marketing">Marketing</option>
-                                        <option value="Customer Support">Customer Support</option>
-                                    </select>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                    <div class="invalid-feedback"> Please select a department. </div>
                                 </div>
                             </div>
                             <!-- /column -->
@@ -144,14 +120,11 @@
                                     <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px"
                                         required></textarea>
                                     <label for="form_message">Message *</label>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                    <div class="invalid-feedback"> Please enter your messsage. </div>
                                 </div>
                             </div>
                             <!-- /column -->
                             <div class="col-12 text-center">
-                                <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3"
-                                    value="Send message">
+                                <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send">
                                 <p class="text-muted"><strong>*</strong> These fields are required.</p>
                             </div>
                             <!-- /column -->
@@ -182,17 +155,17 @@
                 <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
                     <div class="row align-items-center counter-wrapper gy-4 gy-md-0">
                         <div class="col-md-4 text-center">
-                            <h3 class="counter counter-lg text-primary">7518</h3>
+                            <h3 class="counter counter-lg text-primary">150</h3>
                             <p>Completed Projects</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4 text-center">
-                            <h3 class="counter counter-lg text-primary">5472</h3>
+                            <h3 class="counter counter-lg text-primary">300</h3>
                             <p>Satisfied Customers</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4 text-center">
-                            <h3 class="counter counter-lg text-primary">2184</h3>
+                            <h3 class="counter counter-lg text-primary">200</h3>
                             <p>Expert Employees</p>
                         </div>
                         <!--/column -->
@@ -206,4 +179,9 @@
         <!-- /.container -->
     </section>
     <!-- /section -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
 @endsection

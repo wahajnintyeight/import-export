@@ -9,10 +9,12 @@
                     <div class="container">
                         <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
                             <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
-                                <h1 class="display-2 mb-4 me-xl-5 me-xxl-0">Networking <span
-                                        class="text-gradient gradient-1">solutions</span> for worldwide communication</h1>
-                                <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">We're a company that focuses on establishing
-                                    long-term relationships with customers.</p>
+                                <h1 class="display-2 mb-4 me-xl-5 me-xxl-0">Navigating the<span
+                                        class="text-gradient gradient-1"> Global Marketplace </span> with Expertise and
+                                    Efficiency.</h1>
+                                <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">At Global Hub Trading, we specialize in providing
+                                    a full range of services to businesses of all sizes looking to navigate the global
+                                    marketplace.</p>
                                 <div><a href="#" class="btn btn-lg btn-gradient gradient-1 rounded">Explore Now</a>
                                 </div>
                             </div>
@@ -46,7 +48,7 @@
                 <!-- /column -->
             </div>
             <!-- /.row -->
-            <div class="row gy-8 mb-17">
+            <div class="row gy-8 mb-17 mt-6">
                 <div class="col-md-6 col-lg-4">
                     <div class="d-flex flex-row">
                         <div>
@@ -54,9 +56,9 @@
                                 class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
                         </div>
                         <div>
-                            <h3 class="fs-22 mb-1">Software & Integration</h3>
-                            <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio
-                                sem aget elit nullam quis risus eget.</p>
+                            <h3 class="fs-22 mb-1">Import</h3>
+                            <p class="mb-0">Expertly handling import procedures to ensure compliance and timely
+                                delivery.</p>
                         </div>
                     </div>
                 </div>
@@ -68,9 +70,9 @@
                                 class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
                         </div>
                         <div>
-                            <h3 class="fs-22 mb-1">Network Security</h3>
-                            <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio
-                                sem aget elit nullam quis risus eget.</p>
+                            <h3 class="fs-22 mb-1">Export</h3>
+                            <p class="mb-0">Expediting exports to global markets with compliance and logistics
+                                expertise.</p>
                         </div>
                     </div>
                 </div>
@@ -82,14 +84,13 @@
                                 class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
                         </div>
                         <div>
-                            <h3 class="fs-22 mb-1">Cloud Services</h3>
-                            <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio
-                                sem aget elit nullam quis risus eget.</p>
+                            <h3 class="fs-22 mb-1">Wholesale</h3>
+                            <p class="mb-0">Providing wholesale sourcing and logistics solutions for clients.</p>
                         </div>
                     </div>
                 </div>
                 <!--/column -->
-                <div class="col-md-6 col-lg-4">
+                {{-- <div class="col-md-6 col-lg-4">
                     <div class="d-flex flex-row">
                         <div>
                             <img src="./assets/img/icons/solid/director.svg"
@@ -129,7 +130,7 @@
                                 sem aget elit nullam quis risus eget.</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!--/column -->
             </div>
             <!--/.row -->
@@ -142,25 +143,24 @@
                 <div class="col-lg-5 offset-lg-1">
                     <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Have Perfect Control</h2>
                     <h3 class="display-4 mb-4">We bring solutions to make life easier for our customers.</h3>
-                    <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel
-                        scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue rutrum.</p>
+                    <p class="mb-6">At Global Hub Trading, we understand the complexities and challenges of international
+                        trade. That's why we bring solutions to make life easier for our customers.</p>
                     <div class="row gy-3">
                         <div class="col-xl-6">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare. Curabitur
-                                        blandit.</span></li>
-                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget
-                                        urna mollis ornare.</span></li>
+                                <li><span><i class="uil uil-check"></i></span><span> From sourcing and qualifying suppliers
+                                        to coordinating logistics and delivery.</span></li>
+                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>To handle every aspect of
+                                        the import and export process with efficiency and expertise.</span></li>
                             </ul>
                         </div>
                         <!--/column -->
                         <div class="col-xl-6">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod malesuada
-                                        mollis.</span></li>
-                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Vivamus sagittis lacus
-                                        vel augue rutrum.</span></li>
+                                <li><span><i class="uil uil-check"></i></span><span>To make international trade as simple
+                                        and seamless as possible for our clients.</span></li>
+                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>We work closely with our
+                                        clients to understand their unique needs and provide tailored solutions.</span></li>
                             </ul>
                         </div>
                         <!--/column -->
@@ -183,7 +183,7 @@
                                         alt="" />
                                 </div>
                                 <div>
-                                    <h3 class="fs-25 counter mb-0 text-nowrap">500+</h3>
+                                    <h3 class="fs-25 counter mb-0 text-nowrap">200+</h3>
                                     <p class="fs-16 lh-sm mb-0 text-nowrap">Happy Clients</p>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@
                     <div class="container">
                         <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
                             <div class="col-lg-4 text-center text-lg-start">
-                                <h3 class="display-4 mb-3 pe-xxl-15">We are proud of our works</h3>
+                                <h3 class="display-4 mb-3 pe-xxl-15">We are proud of our work.</h3>
                                 <p class="lead fs-lg mb-0 pe-xxl-10">We bring solutions to make life easier for our
                                     customers.</p>
                             </div>
@@ -422,8 +422,8 @@
                         </div>
                         <div>
                             <h4>Our Vision</h4>
-                            <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida
-                                at eget. Fusce dapibus tellus.</p>
+                            <p class="mb-2">To be the leading provider of import and export services, renowned for our
+                                commitment to excellence, integrity, and customer satisfaction.</p>
                         </div>
                     </div>
                 </div>
@@ -436,8 +436,8 @@
                         </div>
                         <div>
                             <h4>Our Mission</h4>
-                            <p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet.
-                                Sed posuere consectetur.</p>
+                            <p class="mb-2">To provide tailored solutions to meet the unique needs of our clients and
+                                make the import and export process as simple and seamless as possible.</p>
                         </div>
                     </div>
                 </div>
@@ -450,8 +450,8 @@
                         </div>
                         <div>
                             <h4>Our Values</h4>
-                            <p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo
-                                cursus magna scelerisque.</p>
+                            <p class="mb-2">Excellence, Customer Satisfaction, Compliance and safety and Professionalism.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -475,7 +475,7 @@
                         </div>
                         <div>
                             <h5 class="mb-0">Address</h5>
-                            <address>Moonshine St. 14/05 Light City, London</address>
+                            <address>Former Princess ltd, Unit A2 Lord North Street, Manchester M40 2HJ.</address>
                         </div>
                     </div>
                     <div class="d-flex flex-row">
@@ -486,7 +486,7 @@
                         </div>
                         <div>
                             <h5 class="mb-0">Phone</h5>
-                            <p>00 (123) 456 78 90</p>
+                            <p>+44-7716-295728</p>
                         </div>
                     </div>
                     <div class="d-flex flex-row">
@@ -497,7 +497,11 @@
                         </div>
                         <div>
                             <h5 class="mb-0">E-mail</h5>
-                            <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">sandbox@email.com</a>
+                            <p class="mb-0">
+                                <a href="mailto:office@ghubtrading.co.uk" class="link-body">office@ghubtrading.co.uk</a>
+                                <br>
+                                <a href="mailto:accounts@ghubtrading.co.uk"
+                                    class="link-body">accounts@ghubtrading.co.uk</a>
                             </p>
                         </div>
                     </div>

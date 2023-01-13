@@ -19,5 +19,9 @@ class PagesController extends Controller
     {
         return view('contact');
     }
+    public function view_catalog_page()
+    {
+        return view('catalog');
+    }
     
 }

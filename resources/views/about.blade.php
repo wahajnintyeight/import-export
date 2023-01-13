@@ -1,21 +1,78 @@
 @extends('layouts.app')
 @section('content')
     <!-- /header -->
-    <section class="wrapper bg-gray">
-        <div class="container pt-10 pt-md-14 text-center">
-            <div class="row">
-                <div class="col-xl-6 mx-auto">
-                    <h1 class="display-1 mb-4"></h1>
-                    <p class="lead fs-lg mb-0">A company turning ideas into beautiful things.</p>
+    <div class="swiper-container swiper-hero dots-over" data-margin="0" data-autoplay="true" data-autoplaytime="5000"
+        data-nav="true" data-dots="true" data-items="1">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+                    data-image-src="./assets/img/workers/w5.jpg">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div
+                                class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
+                                <h2
+                                    class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                                    We bring solutions to make life easier.</h2>
+                                <p
+                                    class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
+                                    We are a creative company that focuses on long term relationships with customers.</p>
+                                <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="#"
+                                        class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/.container -->
                 </div>
-                <!-- /column -->
+                <!--/.swiper-slide -->
+                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+                    data-image-src="./assets/img/workers/w6.jpg">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div
+                                class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                                <h2
+                                    class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                                    We are trusted by over a million customers.</h2>
+
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/.container -->
+                </div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+                    data-image-src="./assets/img/workers/w7.jpg">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div
+                                class="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
+                                <h2
+                                    class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                                    Just sit and relax.</h2>
+                                <p
+                                    class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
+                                    We make sure your spending is stress free so that you can have the perfect control.</p>
+                                <div class="animate__animated animate__slideInUp animate__delay-3s"><a
+                                        href="{{ route('contact') }}"
+                                        class="btn btn-lg btn-outline-white rounded-pill">Contact Us</a></div>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/.container -->
+                </div>
+                <!--/.swiper-slide -->
             </div>
-            <!-- /.row -->
+            <!--/.swiper-wrapper -->
         </div>
-        <!-- /.container -->
-        <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img src="./assets/img/photos/bg12.jpg"
-                alt="" /></figure>
-    </section>
+        <!-- /.swiper -->
+    </div>
     <!-- /section -->
     <section class="wrapper bg-light angled upper-end lower-end">
         <div class="container py-14 py-md-16">
@@ -25,11 +82,11 @@
                         style="top: 3rem; left: 5.5rem"></div>
                     <div class="overlap-grid overlap-grid-2">
                         <div class="item">
-                            <figure class="rounded shadow"><img src="./assets/img/photos/about2.jpg"
+                            <figure class="rounded shadow"><img src="./assets/img/workers/w8.webp"
                                     srcset="./assets/img/photos/about2@2x.jpg 2x" alt=""></figure>
                         </div>
                         <div class="item">
-                            <figure class="rounded shadow"><img src="./assets/img/photos/about3.jpg"
+                            <figure class="rounded shadow"><img src="./assets/img/workers/w9.avif"
                                     srcset="./assets/img/photos/about3@2x.jpg 2x" alt=""></figure>
                         </div>
                     </div>
@@ -66,6 +123,30 @@
                 </div>
                 <!--/column -->
             </div>
+
+            <section class="wrapper bg-light">
+                <div class="container py-14 py-md-16">
+                    <div class="row">
+                        <div class="col-xl-10 mx-auto">
+                            <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400"
+                                data-image-src="./assets/img/photos/bg3.jpg">
+                                <div
+                                    class="card-body p-6 p-md-11 d-lg-flex flex-row align-items-lg-center justify-content-md-between text-center text-lg-start">
+                                    <h3 class="display-6 mb-6 mb-lg-0 pe-lg-10 pe-xl-5 pe-xxl-18 text-white">We are trusted
+                                        by over 200+ clients. Join them by using our services and grow your business.</h3>
+                                    <a href="#" class="btn btn-white rounded-pill mb-0 text-nowrap">Join Us</a>
+                                </div>
+                                <!--/.card-body -->
+                            </div>
+                            <!--/.card -->
+                        </div>
+                        <!-- /column -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /section -->
             <!--/.row -->
             <div class="row mb-5">
                 <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
@@ -122,7 +203,8 @@
                                 </div>
                                 <div>
                                     <h4 class="mb-1">Logistics </h4>
-                                    <p class="mb-0">Efficiently managing the transportation, customs clearance, and timely
+                                    <p class="mb-0">Efficiently managing the transportation, customs clearance, and
+                                        timely
                                         delivery of products to clients' destination.</p>
                                 </div>
                             </div>
@@ -153,29 +235,28 @@
         <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-soft-primary">
-        <div class="container pt-16 pb-14 pb-md-0">
-            <div class="row gx-lg-8 gx-xl-0 align-items-center">
-                <div class="col-md-5 col-lg-5 col-xl-4 offset-xl-1 d-none d-md-flex position-relative align-self-end">
-                    <div class="shape rounded-circle bg-pale-primary rellax w-21 h-21 d-md-none d-lg-block"
-                        data-rellax-speed="1" style="top: 7rem; left: 1rem"></div>
-                    <figure><img src="./assets/img/photos/co1.png" srcset="./assets/img/photos/co1@2x.png 2x"
-                            alt=""></figure>
-                </div>
-                <!--/column -->
-                <div class="col-md-7 col-lg-6 col-xl-6 col-xxl-5 offset-xl-1">
-                    <div class="swiper-container dots-start dots-closer mt-md-10 mb-md-15" data-margin="30"
+
+    <!-- /section -->
+    <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-300 text-white"
+        data-image-src="./assets/img/photos/bg2.jpg">
+        <div class="container py-14 py-md-17">
+            <h2 class="display-4 mb-5 text-white text-center">Happy Customers</h2>
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto" data-cue="fadeIn">
+                    <div class="swiper-container dots-light dots-closer text-center mb-6" data-margin="30"
                         data-dots="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <blockquote class="icon fs-lg">
-                                        <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                                            Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur
-                                            nulla dapibus curabitur blandit.”</p>
-                                        <div class="blockquote-details">
-                                            <div class="info ps-0">
-                                                <h5 class="mb-1">Coriss Ambady</h5>
+                                    <blockquote class="border-0 fs-lg mb-0">
+                                        <p>“Their expertise in
+                                            logistics and compliance has allowed me to expand my exports to new markets with
+                                            ease.”</p>
+                                        <div class="blockquote-details justify-content-center">
+                                            <img class="rounded-circle w-12" src="./assets/img/avatars/te1.jpg"
+                                                srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                                            <div class="info">
+                                                <h6 class="mb-1 text-white">Coriss Ambady</h6>
                                                 <p class="mb-0">Financial Analyst</p>
                                             </div>
                                         </div>
@@ -183,13 +264,15 @@
                                 </div>
                                 <!--/.swiper-slide -->
                                 <div class="swiper-slide">
-                                    <blockquote class="icon fs-lg">
-                                        <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                                            Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur
-                                            adipiscing dapibus curabitur blandit.”</p>
-                                        <div class="blockquote-details">
-                                            <div class="info ps-0">
-                                                <h5 class="mb-1">Cory Zamora</h5>
+                                    <blockquote class="border-0 fs-lg mb-0">
+                                        <p>“I highly recommend them to anyone in need of import/export services, their
+                                            attention
+                                            to detail is second to none.”</p>
+                                        <div class="blockquote-details justify-content-center">
+                                            <img class="rounded-circle w-12" src="./assets/img/avatars/te2.jpg"
+                                                srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
+                                            <div class="info">
+                                                <h6 class="mb-1 text-white">Cory Zamora</h6>
                                                 <p class="mb-0">Marketing Specialist</p>
                                             </div>
                                         </div>
@@ -197,13 +280,15 @@
                                 </div>
                                 <!--/.swiper-slide -->
                                 <div class="swiper-slide">
-                                    <blockquote class="icon fs-lg">
-                                        <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                                            Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur
-                                            adipiscing dapibus curabitur blandit.”</p>
-                                        <div class="blockquote-details">
-                                            <div class="info ps-0">
-                                                <h5 class="mb-1">Nikolas Brooten</h5>
+                                    <blockquote class="border-0 fs-lg mb-0">
+                                        <p>“Global Hub Trading navigated international trade complexities with ease and
+                                            exceeded
+                                            our satisfaction.”</p>
+                                        <div class="blockquote-details justify-content-center">
+                                            <img class="rounded-circle w-12" src="./assets/img/avatars/te3.jpg"
+                                                srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
+                                            <div class="info">
+                                                <h6 class="mb-1 text-white">Nikolas Brooten</h6>
                                                 <p class="mb-0">Sales Manager</p>
                                             </div>
                                         </div>
@@ -213,219 +298,46 @@
                             </div>
                             <!--/.swiper-wrapper -->
                         </div>
-                        <!-- /.swiper -->
+                        <!--/.swiper -->
                     </div>
                     <!-- /.swiper-container -->
                 </div>
-                <!--/column -->
+                <!-- /column -->
             </div>
-            <!--/.row -->
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
     <!-- /section -->
     <section class="wrapper bg-light">
         <div class="container py-14 py-md-16">
-            <div class="row mb-3">
-                <div class="col-md-10 col-xl-9 col-xxl-7 mx-auto text-center">
-                    <img src="./assets/img/icons/lineal/team.svg" class="svg-inject icon-svg icon-svg-md mb-4"
-                        alt="" />
-                    <h2 class="display-4 mb-3 px-lg-14">Save your time and money by choosing our professional team.
-                    </h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="fs-15 text-uppercase text-primary mb-3">Company Facts</h2>
+                    <h3 class="display-4 pe-xl-15">We are proud of our works</h3>
                 </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
-            <div class="position-relative">
-                <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1"
-                    style="bottom: 0.5rem; right: -1.7rem;"></div>
-                <div class="shape rounded-circle bg-line red rellax w-16 h-16" data-rellax-speed="1"
-                    style="top: 0.5rem; left: -1.7rem;"></div>
-                <div class="swiper-container dots-closer mb-6" data-margin="0" data-dots="true" data-items-xxl="4"
-                    data-items-xl="3" data-items-lg="3" data-items-md="2" data-items-xs="1">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="item-inner">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te1.jpg"
-                                                srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
-                                            <h4 class="mb-1">Coriss Ambady</h4>
-                                            <div class="meta mb-2">Financial Analyst</div>
-                                            <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                                            <nav class="nav social mb-0">
-                                                <a href="#"><i class="uil uil-twitter"></i></a>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                                <a href="#"><i class="uil uil-dribbble"></i></a>
-                                            </nav>
-                                            <!-- /.social -->
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.item-inner -->
-                            </div>
-                            <!--/.swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="item-inner">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te2.jpg"
-                                                srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
-                                            <h4 class="mb-1">Cory Zamora</h4>
-                                            <div class="meta mb-2">Marketing Specialist</div>
-                                            <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                                            <nav class="nav social mb-0">
-                                                <a href="#"><i class="uil uil-twitter"></i></a>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                                <a href="#"><i class="uil uil-dribbble"></i></a>
-                                            </nav>
-                                            <!-- /.social -->
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.item-inner -->
-                            </div>
-                            <!--/.swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="item-inner">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te3.jpg"
-                                                srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
-                                            <h4 class="mb-1">Nikolas Brooten</h4>
-                                            <div class="meta mb-2">Sales Manager</div>
-                                            <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                                            <nav class="nav social mb-0">
-                                                <a href="#"><i class="uil uil-twitter"></i></a>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                                <a href="#"><i class="uil uil-dribbble"></i></a>
-                                            </nav>
-                                            <!-- /.social -->
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.item-inner -->
-                            </div>
-                            <!--/.swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="item-inner">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te4.jpg"
-                                                srcset="./assets/img/avatars/te4@2x.jpg 2x" alt="" />
-                                            <h4 class="mb-1">Jackie Sanders</h4>
-                                            <div class="meta mb-2">Investment Planner</div>
-                                            <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                                            <nav class="nav social mb-0">
-                                                <a href="#"><i class="uil uil-twitter"></i></a>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                                <a href="#"><i class="uil uil-dribbble"></i></a>
-                                            </nav>
-                                            <!-- /.social -->
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.item-inner -->
-                            </div>
-                            <!--/.swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="item-inner">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te5.jpg"
-                                                srcset="./assets/img/avatars/te5@2x.jpg 2x" alt="" />
-                                            <h4 class="mb-1">Laura Widerski</h4>
-                                            <div class="meta mb-2">Sales Specialist</div>
-                                            <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                                            <nav class="nav social mb-0">
-                                                <a href="#"><i class="uil uil-twitter"></i></a>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                                <a href="#"><i class="uil uil-dribbble"></i></a>
-                                            </nav>
-                                            <!-- /.social -->
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.item-inner -->
-                            </div>
-                            <!--/.swiper-slide -->
-                            <div class="swiper-slide">
-                                <div class="item-inner">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te6.jpg"
-                                                srcset="./assets/img/avatars/te6@2x.jpg 2x" alt="" />
-                                            <h4 class="mb-1">Tina Geller</h4>
-                                            <div class="meta mb-2">Financial Analyst</div>
-                                            <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                                            <nav class="nav social mb-0">
-                                                <a href="#"><i class="uil uil-twitter"></i></a>
-                                                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                                <a href="#"><i class="uil uil-dribbble"></i></a>
-                                            </nav>
-                                            <!-- /.social -->
-                                        </div>
-                                        <!--/.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.item-inner -->
-                            </div>
-                            <!--/.swiper-slide -->
-                        </div>
-                        <!--/.swiper-wrapper -->
-                    </div>
-                    <!-- /.swiper -->
-                </div>
-                <!-- /.swiper-container -->
-            </div>
-            <!-- /.position-relative -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-soft-primary">
-        <div class="container py-14 py-md-16">
-            <div class="row mb-10">
-                <div class="col-xl-10 mx-auto">
+                <!-- /column -->
+                <div class="col-lg-8">
                     <div class="row align-items-center counter-wrapper gy-6 text-center">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <img src="./assets/img/icons/lineal/check.svg"
                                 class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">7518</h3>
-                            <p>Completed Projects</p>
+                            <h3 class="counter">150</h3>
+                            <p class="mb-0">Completed Projects</p>
                         </div>
                         <!--/column -->
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <img src="./assets/img/icons/lineal/user.svg"
                                 class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">3472</h3>
-                            <p>Satisfied Customers</p>
+                            <h3 class="counter">300</h3>
+                            <p class="mb-0">Happy Customers</p>
                         </div>
                         <!--/column -->
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <img src="./assets/img/icons/lineal/briefcase-2.svg"
                                 class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">2184</h3>
-                            <p>Expert Employees</p>
-                        </div>
-                        <!--/column -->
-                        <div class="col-md-3">
-                            <img src="./assets/img/icons/lineal/award-2.svg"
-                                class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">4523</h3>
-                            <p>Awards Won</p>
+                            <h3 class="counter">200</h3>
+                            <p class="mb-0">Expert Employees</p>
                         </div>
                         <!--/column -->
                     </div>
@@ -438,13 +350,14 @@
         <!-- /.container -->
     </section>
     <!-- /section -->
+    <!-- /section -->
     <section class="wrapper bg-light angled upper-end lower-end">
-        <div class="container pt-18 pb-14 pt-md-19 pb-md-16">
+        <div class="container pt-12 pb-8 pt-md-12 pb-md-10">
             <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center">
                 <div class="col-md-8 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 position-relative">
                     <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1"
                         style="top: -2rem; left: -1.4rem;"></div>
-                    <figure class="rounded"><img src="./assets/img/photos/about4.jpg"
+                    <figure class="rounded"><img src="./assets/img/workers/w1.jpg"
                             srcset="./assets/img/photos/about4@2x.jpg 2x" alt=""></figure>
                 </div>
                 <!--/column -->
@@ -491,4 +404,9 @@
         <!-- /.container -->
     </section>
     <!-- /section -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
 @endsection
