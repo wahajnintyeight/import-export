@@ -5,7 +5,7 @@
         <div class="container pt-10 pt-md-14 text-center">
             <div class="row">
                 <div class="col-xl-6 mx-auto">
-                    <h1 class="display-1 mb-4">Hello! This is Sandbox</h1>
+                    <h1 class="display-1 mb-4"></h1>
                     <p class="lead fs-lg mb-0">A company turning ideas into beautiful things.</p>
                 </div>
                 <!-- /column -->
@@ -39,27 +39,25 @@
                     <img src="./assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md mb-4"
                         alt="" />
                     <h2 class="display-4 mb-3">Who Are We?</h2>
-                    <p class="lead fs-lg">We are a digital and branding company that believes in the power of creative
-                        strategy and along with great design.</p>
-                    <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna,
-                        vel scelerisque nisl consectetur et.</p>
+                    <p class="lead fs-lg">Global Hub foundation has been built with decades of experience in logistics,
+                        legal compliance, cross border trade, international business development, accounting, finance and
+                        investment banking.</p>
                     <div class="row gy-3 gx-xl-8">
                         <div class="col-xl-6">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare curabitur
-                                        blandit tempus.</span></li>
-                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus
-                                        eget urna mollis ornare donec elit.</span></li>
+                                <li><span><i class="uil uil-check"></i></span><span>Strong commitment to excellence.</span>
+                                </li>
+                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Attention to
+                                        detail.</span></li>
                             </ul>
                         </div>
                         <!--/column -->
                         <div class="col-xl-6">
                             <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                <li><span><i class="uil uil-check"></i></span><span>Etiam porta sem malesuada magna
-                                        mollis euismod.</span></li>
-                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Fermentum massa
-                                        vivamus faucibus amet euismod.</span></li>
+                                <li><span><i class="uil uil-check"></i></span><span>Above and beyond attitude towards
+                                        helping our clients.</span></li>
+                                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Impeccable track record
+                                        for delivering goods on time.</span></li>
                             </ul>
                         </div>
                         <!--/column -->
@@ -89,8 +87,8 @@
                                             class="number">01</span></span>
                                 </div>
                                 <div>
-                                    <h4 class="mb-1">Collect Ideas</h4>
-                                    <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus.</p>
+                                    <h4 class="mb-1">Consultation</h4>
+                                    <p class="mb-0">To understand your product or service needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -105,8 +103,10 @@
                                             class="number">02</span></span>
                                 </div>
                                 <div>
-                                    <h4 class="mb-1">Data Analysis</h4>
-                                    <p class="mb-0">Vivamus sagittis lacus vel augue laoreet.</p>
+                                    <h4 class="mb-1">Sourcing</h4>
+                                    <p class="mb-0">To conduct an extensive search for the best suppliers and
+                                        manufacturers to ensure the best possible quality and pricing for our clients'
+                                        products.</p>
                                 </div>
                             </div>
                         </div>
@@ -121,8 +121,9 @@
                                             class="number">03</span></span>
                                 </div>
                                 <div>
-                                    <h4 class="mb-1">Finalize Product</h4>
-                                    <p class="mb-0">Cras mattis consectetur purus sit amet.</p>
+                                    <h4 class="mb-1">Logistics </h4>
+                                    <p class="mb-0">Efficiently managing the transportation, customs clearance, and timely
+                                        delivery of products to clients' destination.</p>
                                 </div>
                             </div>
                         </div>
@@ -133,14 +134,16 @@
                 <!--/column -->
                 <div class="col-lg-6">
                     <h2 class="display-6 mb-3">How It Works?</h2>
-                    <p class="lead fs-lg pe-lg-5">Find out everything you need to know and more about how we create our
-                        business process models.</p>
-                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem
-                        malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam
-                        quis risus eget urna mollis ornare.</p>
-                    <p class="mb-6">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta
-                        felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est
-                        at lobortis. Vestibulum id ligula porta felis.</p>
+                    <p class="lead fs-lg pe-lg-5">At Global Hub Trading, our import/export process is designed to be simple
+                        and efficient for our clients. Our team of experts will work closely with you to understand your
+                        specific needs and requirements.</p>
+                    <p>We will have an initial consultation with you to understand your product or service needs, as well as
+                        any specific regulations or compliance requirements that need to be met.</p>
+                    <p class="mb-6">Our team will conduct an extensive search for the best suppliers and manufacturers to
+                        ensure the best possible quality and pricing for your products.</p>
+                    <p class="mb-6"> We will handle all of the logistics for you, including arranging transportation,
+                        customs clearance, and delivery.</p>
+
                     <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
                 </div>
                 <!--/column -->

@@ -19,7 +19,7 @@
         <div class="container pb-14 pb-md-16">
             <div class="row mb-8">
                 <div class="col-12 mt-n20">
-                    <figure class="rounded"><img src="{{ '/assets/img/photos/about5.jpg' }}"
+                    <figure class="rounded"><img src="{{ '/assets/img/containers/constructors.jpg' }}"
                             srcset="{{ '/assets/img/photos/about5@2x.jpg' }} 2x" alt="" /></figure>
                     <div class="row">
                         <div class="col-xl-10 mx-auto">
@@ -65,22 +65,22 @@
                 <div class="col-lg-6 order-lg-2">
                     <div class="row gx-md-5 gy-5">
                         <div class="col-md-4 offset-md-2 align-self-end">
-                            <figure class="rounded"><img src="{{ '/assets/img/photos/g1.jpg' }}"
+                            <figure class="rounded"><img src="{{ '/assets/img/containers/c5.jpg' }}"
                                     srcset="{{ '/assets/img/photos/g1@2x.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 align-self-end">
-                            <figure class="rounded"><img src="{{ '/assets/img/photos/g2.jpg' }}"
+                            <figure class="rounded"><img src="{{ '/assets/img/containers/c6.jpg' }}"
                                     srcset="{{ '/assets/img/photos/g2@2x.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 offset-md-1">
-                            <figure class="rounded"><img src="{{ '/assets/img/photos/g3.jpg' }}"
+                            <figure class="rounded"><img src="{{ '/assets/img/containers/c7.jpg' }}"
                                     srcset="{{ '/assets/img/photos/g3@2x.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-4 align-self-start">
-                            <figure class="rounded"><img src="{{ '/assets/img/photos/g4.jpg' }}"
+                            <figure class="rounded"><img src="{{ '/assets/img/containers/ppl.jpg' }}"
                                     srcset="{{ '/assets/img/photos/g4@2x.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
@@ -90,7 +90,9 @@
                 <!--/column -->
                 <div class="col-lg-6">
                     <h2 class="display-4 mb-3">What We Do?</h2>
-                    <p class="lead fs-lg mb-8 pe-xxl-2">The full service we are offering is <span
+                    <p class="lead fs-lg mb-8 pe-xxl-2">Global Hub Trading specializes in providing import and export
+                        services for businesses of all sizes. We work closely with our clients to understand their unique
+                        needs and requirements, and provide solutions tailored to their specific needs. <span
                             class="underline">specifically</span> designed to meet your business needs and projects.</p>
                     <div class="row gx-xl-10 gy-6">
                         <div class="col-md-6 col-lg-12 col-xl-6">
@@ -101,7 +103,8 @@
                                 </div>
                                 <div>
                                     <h4 class="mb-1">IMPORT</h4>
-                                    <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus.</p>
+                                    <p class="mb-0">Expertly handling import procedures to ensure compliance and timely
+                                        delivery.</p>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +117,8 @@
                                 </div>
                                 <div>
                                     <h4 class="mb-1">EXPORT</h4>
-                                    <p class="mb-0">Vivamus sagittis lacus augue laoreet vel.</p>
+                                    <p class="mb-0">Expediting exports to global markets with compliance and logistics
+                                        expertise.</p>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +131,7 @@
                                 </div>
                                 <div>
                                     <h4 class="mb-1">WHOLESALE</h4>
-                                    <p class="mb-0">Cras mattis consectetur purus sit amet.</p>
+                                    <p class="mb-0">Providing wholesale sourcing and logistics solutions for clients.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +144,8 @@
                                 </div>
                                 <div>
                                     <h4 class="mb-1">DISTRIBUTION</h4>
-                                    <p class="mb-0">Aenean lacinia bibendum nulla sed consectetur.</p>
+                                    <p class="mb-0">Streamlining product distribution globally with logistics and
+                                        compliance expertise.</p>
                                 </div>
                             </div>
                         </div>

@@ -98,7 +98,7 @@
                         <div class="row gx-4">
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
-                                    <input id="form_name" type="text" name="name" class="form-control"
+                                    <input id="form_name" type="text" name="name" class="form-control bg-gray-500"
                                         placeholder="Jane" required>
                                     <label for="form_name">First Name *</label>
                                     <div class="valid-feedback"> Looks good! </div>
