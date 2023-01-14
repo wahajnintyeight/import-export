@@ -1,12 +1,13 @@
-<x-mail::message>
-# Introduction
+<x-mail::panel>
+    # A new Contact Query has sent to you!
 
-The body of your message.
+    Hello,
 
-<x-mail::button :url="''">
-Button Text
-</x-mail::button>
+    Full Name: {{ $fullname }}
+    Email: {{ $mailfrom }}
+    Phone Number: {{ $phone }}
+    Message: {{ $message }}
 
-Thanks,<br>
-{{ config('app.name') }}
-</x-mail::message>
+    Thanks,
+    {{ config('app.name') }}
+</x-mail::panel>

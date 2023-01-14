@@ -101,23 +101,33 @@
                         <div class="row gx-4">
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
-                                    <input id="form_name" type="text" name="name" class="form-control bg-neutral-300"
+                                    <input id="form_name" type="text" name="firstName" class="form-control border"
                                         placeholder="Jane" required>
                                     <label for="form_name">First Name *</label>
                                 </div>
+                                <div class="form-floating mb-4">
+                                    <input id="form_name" type="text" name="phone" class="form-control border"
+                                        placeholder="Jane" required>
+                                    <label for="form_name">Phone Number *</label>
+                                </div>
                             </div>
-
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
-                                    <input id="form_email" type="email" name="email" class="form-control"
+                                    <input id="form_name" type="text" name="lastName" class="form-control border"
+                                        placeholder="Jane" required>
+                                    <label for="form_name">Last Name *</label>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input id="form_email" type="email" name="email" class="form-control border"
                                         placeholder="jane.doe@example.com" required>
                                     <label for="form_email">Email *</label>
                                 </div>
                             </div>
+
                             <!-- /column -->
                             <div class="col-12">
                                 <div class="form-floating mb-4">
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px"
+                                    <textarea id="form_message" name="message" class="form-control border" placeholder="Your message" style="height: 150px"
                                         required></textarea>
                                     <label for="form_message">Message *</label>
                                 </div>
@@ -127,6 +137,11 @@
                                 <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send">
                                 <p class="text-muted"><strong>*</strong> These fields are required.</p>
                             </div>
+                            @if (session()->has('success'))
+                                <div class="alert alert-success">
+                                    {{ session()->get('success') }}
+                                </div>
+                            @endif
                             <!-- /column -->
                         </div>
                         <!-- /.row -->

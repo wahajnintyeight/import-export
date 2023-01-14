@@ -16,53 +16,27 @@ class Contact extends Mailable
 
     public $message;
     public $mailfrom;
+    public $phone;
+    public $fullname;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($message, $mailfrom)
+    public function __construct($message, $mailfrom, $fullname, $phone)
     {
         //
         // $this->name = $name;
         $this->message = $message;
+        $this->fullname = $fullname;
+        $this->phone = $phone;
         $this->mailfrom = $mailfrom;
     }
 
-    /**
-     * Get the message envelope.
-     *
-     * @return \Illuminate\Mail\Mailables\Envelope
-     */
-    public function envelope()
+
+    public function build()
     {
-        return new Envelope(
-            from: new Address($this->mailfrom, 'Global Hub Trading'),
-            subject: 'Contact',
-        );
+        return $this->subject('Contact Query')->markdown('emails.contact');
     }
-
-    /**
-     * Get the message content definition.
-     *
-     * @return \Illuminate\Mail\Mailables\Content
-     */
-    public function content()
-    {
-        return new Content(
-            markdown: 'emails.contact',
-        );
-    }
-
-/**
- * Get the attachments for the message.
- *
- * @return array
- */
-
-// public function build()
-// {
-//     return $this->from($this->mailfrom)->markdown('emails.contact');
-// }
 
 }

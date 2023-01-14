@@ -9,13 +9,14 @@
     <meta name="keywords"
         content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
-    <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
+    <title>Global Hub Trading Ltd.</title>
     <link rel="shortcut icon" href="{{ asset('/assets/img/favicon.png') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/plugins.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/colors/grape.css') }}">
     <link rel="preload" href="{{ asset('/assets/css/fonts/urbanist.css') }}" as="style"
         onload="this.rel='stylesheet'">
+    <link href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -89,7 +90,7 @@
                 <!-- /.container -->
             </nav>
             <!-- /.navbar -->
-            <a href="https://api.whatsapp.com/send?phone=51000000000" class="whatsapp-button"
+            <a href="https://api.whatsapp.com/send?phone=447716295728" class="whatsapp-button"
                 style="z-index: 99999 !important;" target="_blank">
                 <img src="{{ asset('assets/img/whatsapp-button.png') }}" alt="botão whatsapp">
             </a>
@@ -98,14 +99,15 @@
     </div>
     {{-- Footer --}}
     <footer class="bg-dark text-inverse">
-        <div class="container py-13 py-md-15">
+        <div class="container py-13 py-md-15 mx-auto">
             <div class="mt-10"></div>
             <div class="row gy-6 gy-lg-0">
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-3 col-lg-3 mx-auto">
                     <div class="widget">
                         <img class="mb-4" src="{{ asset('/assets/img/logo_white.png') }}" width="60%"
                             height="60%" srcset="{{ asset('/assets/img/logo-light@2x.png') }} 2x" alt="" />
-                        <p class="mb-4">© 2021 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+                        <p class="mb-4">© 2023 Global Hub Trading. <br class="d-none d-lg-block" />All rights
+                            reserved.</p>
                         <nav class="nav social social-white">
                             <a href="#"><i class="uil uil-twitter"></i></a>
                             <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -118,7 +120,7 @@
                     <!-- /.widget -->
                 </div>
                 <!-- /column -->
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-3 col-lg-3 mx-auto">
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Get in Touch</h4>
                         <address class="pe-xl-15 pe-xxl-17">Former Princess ltd <br>
@@ -133,7 +135,7 @@
                     <!-- /.widget -->
                 </div>
                 <!-- /column -->
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-3 col-lg-3 mx-auto">
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Learn More</h4>
                         <ul class="list-unstyled  mb-0">
@@ -154,6 +156,25 @@
         </div>
         <!-- /.container -->
     </footer>
+    <script src="https://unpkg.com/sweetalert2@7.19.3/dist/sweetalert2.all.js"></script>
+
+    <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+    @if (session()->has('success'))
+        <script>
+            Toastr.success("{{ session()->get('success') }}");
+        </script>
+    @endif
+    <script>
+        @if ($errors->any())
+            @foreach ($errors->all() as $error)
+                toastr.error('{{ $error }}', 'Error', {
+                    closeButtor: true,
+                    progressBar: true
+                });
+            @endforeach
+        @endif
+    </script>
+
 </body>
 <script src="{{ asset('/assets/js/plugins.js') }}"></script>
 <script src="{{ asset('/assets/js/theme.js') }}"></script>

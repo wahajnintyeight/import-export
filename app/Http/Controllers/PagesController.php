@@ -23,5 +23,10 @@ class PagesController extends Controller
     {
         return view('catalog');
     }
-    
+    public function downloadPDF()
+    {
+        $file = public_path() . "/assets/media/KATALOG-TARG1.pdf";
+        return response()->download($file);
+    }
+
 }

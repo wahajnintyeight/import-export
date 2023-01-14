@@ -23,4 +23,5 @@ Route::get('/services', [PagesController::class, 'view_services'])->name('servic
 Route::get('/contact', [PagesController::class, 'view_contact_page'])->name('contact');
 Route::get('/catalog', [PagesController::class, 'view_catalog_page'])->name('catalog');
 Route::post('/add-contact', [ContactController::class, 'create'])->name('store-contact');
+Route::get('/download', [PagesController::class, 'downloadPDF'])->name('downloadPDF');
 // Route::post('/add-contact', [PagesController::class], 'create')->name('store-contact');

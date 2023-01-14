@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\Contact;
 use App\Models\Contact as ContactModel;
+use Brian2694\Toastr\Toastr;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use PhpParser\Node\Expr\AssignOp\Concat;
@@ -15,15 +16,32 @@ class ContactController extends Controller
     {
         // dd("??");
         $contact = new ContactModel();
-        $contact->name = $req->name;
-        $contact->surname = $req->name;
+        $contact->first_name = $req->firstName;
+        $contact->last_name = $req->lastName;
         $contact->email = $req->email;
+        $contact->phone_number = $req->phone;
         $contact->message = $req->message;
-        // dd($contact);
-        Mail::to("miksmth502@gmail.com")->send(new Contact($contact->message, $req->email));
-        // Mail::to("office@ghubtrading.co.uk")->send(new Contact($contact->message, $req->email));
-        // Mail::to("accounts@ghubtrading.co.uk")->send(new Contact($contact->message, $req->email));
+        Mail::to("office@ghubtrading.co.uk")
+            ->send(
+                new Contact(
+                        $contact->message,
+                        $req->email,
+                        $contact->first_name . " " . $contact->last_name,
+                        $contact->phone_number
+                )
+            );
+
+        Mail::to("accounts@ghubtrading.co.uk")
+            ->send(
+                new Contact(
+                        $contact->message,
+                        $req->email,
+                        $contact->first_name . " " . $contact->last_name,
+                        $contact->phone_number
+                )
+            );
         $contact->save();
-        return view('contact');
+        session()->flash('success', 'Message sent successfully!');
+        return back();
     }
 }
