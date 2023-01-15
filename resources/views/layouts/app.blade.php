@@ -108,7 +108,6 @@
                             height="60%" srcset="{{ asset('/assets/img/logo-light@2x.png') }} 2x" alt="" />
                         <p class="mb-4">© 2023 Global Hub Trading. <br class="d-none d-lg-block" />All rights
                             reserved.</p>
-                       
                         <!-- /.social -->
                     </div>
                     <!-- /.widget -->
