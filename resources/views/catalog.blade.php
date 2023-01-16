@@ -43,7 +43,7 @@
 
                         </div>
                         <!--/column -->
-                        <div class="col-md-4"> <img src="./assets/img/brands/sprite.jpg"
+                        <div class="col-md-4"> <img src="./assets/img/brands/sprite.png"
                                 class="svg-inject icon-svg icon-svg-md text-yellow mb-3" style="width:160px;height:100px"
                                 alt="" />
                             <h4 class="mb-1">Sprite</h4>
