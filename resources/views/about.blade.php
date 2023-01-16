@@ -133,7 +133,8 @@
                                 <div
                                     class="card-body p-6 p-md-11 d-lg-flex flex-row align-items-lg-center justify-content-md-between text-center text-lg-start">
                                     <h3 class="display-6 mb-6 mb-lg-0 pe-lg-10 pe-xl-5 pe-xxl-18 text-white">We are trusted
-                                        by over 200+ clients. Join them by using our services and grow your business.</h3>
+                                        by over {{ config('app.customers') }}+ customers. Join them by using our services and
+                                        grow your business.</h3>
                                     <a href="#" class="btn btn-white rounded-pill mb-0 text-nowrap">Join Us</a>
                                 </div>
                                 <!--/.card-body -->
@@ -152,7 +153,7 @@
                 <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
                     <img src="./assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4"
                         alt="" />
-                    <h2 class="display-4 mb-4 px-lg-14">Here are 3 working steps to organize our business projects.
+                    <h2 class="display-4 mb-4 px-lg-14">Here are 3 working steps to organize our business products.
                     </h2>
                 </div>
                 <!-- /column -->
@@ -322,22 +323,22 @@
                         <div class="col-md-4">
                             <img src="./assets/img/icons/lineal/check.svg"
                                 class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">150</h3>
-                            <p class="mb-0">Completed Projects</p>
+                            <h3 class="counter">{{ config('app.products') }}</h3>
+                            <p class="mb-0">{{ config('app.products_text') }}</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4">
                             <img src="./assets/img/icons/lineal/user.svg"
                                 class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">300</h3>
-                            <p class="mb-0">Happy Customers</p>
+                            <h3 class="counter">{{ config('app.customers') }}</h3>
+                            <p class="mb-0">{{ config('app.customers_text') }}</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4">
                             <img src="./assets/img/icons/lineal/briefcase-2.svg"
                                 class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                            <h3 class="counter">200</h3>
-                            <p class="mb-0">Expert Employees</p>
+                            <h3 class="counter">{{ config('app.staff') }}</h3>
+                            <p class="mb-0">{{ config('app.staff_text') }}</p>
                         </div>
                         <!--/column -->
                     </div>

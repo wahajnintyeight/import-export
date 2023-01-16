@@ -28,18 +28,18 @@
                                 <div class="card-body p-9 p-xl-10">
                                     <div class="row align-items-center counter-wrapper gy-4 text-center">
                                         <div class="col-6 col-lg-4">
-                                            <h3 class="counter counter-lg text-white">150</h3>
-                                            <p>Completed Projects</p>
+                                            <h3 class="counter counter-lg text-white">{{ config('app.products') }}</h3>
+                                            <p>{{ config('app.products_text') }}</p>
                                         </div>
                                         <!--/column -->
                                         <div class="col-6 col-lg-4">
-                                            <h3 class="counter counter-lg text-white">300</h3>
-                                            <p>Satisfied Customers</p>
+                                            <h3 class="counter counter-lg text-white">{{ config('app.customers') }}</h3>
+                                            <p>{{ config('app.customers_text') }}</p>
                                         </div>
                                         <!--/column -->
                                         <div class="col-6 col-lg-4">
-                                            <h3 class="counter counter-lg text-white">200</h3>
-                                            <p>Expert Employees</p>
+                                            <h3 class="counter counter-lg text-white">{{ config('app.staff') }}</h3>
+                                            <p>{{ config('app.staff_text') }}</p>
                                         </div>
                                         <!--/column -->
                                         {{-- <div class="col-6 col-lg-3">
@@ -165,14 +165,15 @@
                                 <div class="col-xl-11 col-xxl-9 mx-auto">
                                     <h2 class="fs-16 text-uppercase text-white mb-3">Join Our Community</h2>
                                     <h3 class="display-3 mb-8 px-lg-8 text-white">We are <span
-                                            class="underline-3 style-2 yellow">trusted</span> by over 200+ clients. Join
+                                            class="underline-3 style-2 yellow">trusted</span> by over
+                                        {{ config('app.customers') }} of customers. Join
                                         them now and grow your business.</h3>
                                 </div>
                                 <!-- /column -->
                             </div>
                             <!-- /.row -->
                             <div class="d-flex justify-content-center">
-                                <span><a class="btn btn-white rounded">Get Started</a></span>
+                                <span><a href="{{ route('contact') }}" class="btn btn-white rounded">Get Started</a></span>
                             </div>
                         </div>
                         <!--/.card-body -->
@@ -242,9 +243,7 @@
         <div class="container py-18 text-center">
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-xxl-8 mx-auto">
-                    <a href="https://www.youtube.com/watch?v=26TbMXXOe0I"
-                        class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i
-                            class="icn-caret-right"></i></a>
+
                     <h2 class="display-4 px-lg-10 px-xl-13 px-xxl-10 mb-10 text-white">Find out everything you need to know
                         about creating a business process model.</h2>
                 </div>
@@ -255,46 +254,69 @@
         <!-- /.container -->
     </section>
     <section class="wrapper bg-light">
-        <div class="container pt-14 pt-md-16">
-            <div class="row">
-                <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
-                    <h2 class="fs-15 text-uppercase text-muted mb-3">Latest Projects</h2>
-                    <h3 class="display-4 mb-10">Check out some of our awesome projects with creative ideas and great
-                        design.</h3>
+        <div class="container">
+
+            <div class="container pt-14 pt-md-16">
+                <div class="row">
+                    <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+                        <h2 class="fs-15 text-uppercase text-muted mb-3">Latest Products</h2>
+                        <h3 class="display-4 mb-10">Get your hands on our creatively designed, top-of-the-line products
+                            now!
+                        </h3>
+                    </div>
+                    <!-- /column -->
                 </div>
-                <!-- /column -->
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
+            <div class="container-fluid px-md-6">
+                <div class="swiper-container blog grid-view mb-17 mb-md-19" data-margin="30" data-nav="true"
+                    data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center; "
+                                        src="./assets/img/photos/sliderimg1.jpeg" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg2.png" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg3.jpg" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_820/v1519824400/content-items/002/273/904/V2__86I8505-original.jpg?1519824400"
+                                        alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg5.jpg" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                        </div>
+                        <!--/.swiper-wrapper -->
+                    </div>
+                    <!-- /.swiper -->
+                </div>
+                <!-- /.swiper-container -->
+            </div>
         </div>
         <!-- /.container -->
-        <div class="container-fluid px-md-6">
-            <div class="swiper-container blog grid-view mb-17 mb-md-19" data-margin="30" data-nav="true"
-                data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <figure class="rounded"><img src="./assets/img/containers/c8.jpg" alt="" /></figure>
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                            <figure class="rounded"><img src="./assets/img/containers/c9.jpg" alt="" /></figure>
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                            <figure class="rounded"><img src="./assets/img/containers/c10.jpg" alt="" /></figure>
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                            <figure class="rounded"><img src="./assets/img/photos/pp13.jpg" alt="" /></figure>
-                        </div>
-                        <!--/.swiper-slide -->
-                    </div>
-                    <!--/.swiper-wrapper -->
-                </div>
-                <!-- /.swiper -->
-            </div>
-            <!-- /.swiper-container -->
-        </div>
         <!-- /.container-fluid -->
     </section>
     <div class="progress-wrap">

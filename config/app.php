@@ -121,6 +121,19 @@ return [
     |
     */
 
+    /* Text  for counters */
+    'products_text' => 'Number of Products',
+    'customers_text' => 'of Happy Customers',
+    'staff_text' => 'Staff',
+    /* Text  for counters */
+
+    /* Count Numbers for counters */
+    'products' => "120+",
+    'customers' => "Thousands",
+    'staff' => "200+",
+    'premium_quality' => "Guaranteed",
+    /* Count Numbers for counters */
+
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',

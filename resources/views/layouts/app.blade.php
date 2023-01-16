@@ -27,7 +27,7 @@
             <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
-                        <a href="{{route('/')}}">
+                        <a href="{{ route('/') }}">
                             <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
                                 width="60%" height="60%" srcset="{{ asset('/assets/img/main_logo.png') }} 2x"
                                 alt="" />
@@ -35,11 +35,11 @@
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
-                             <a href="{{route('/')}}">
-                            <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
-                                width="60%" height="60%" srcset="{{ asset('/assets/img/logo_white.png') }} 2x"
-                                alt="" />
-                        </a>
+                            <a href="{{ route('/') }}">
+                                <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
+                                    width="60%" height="60%" srcset="{{ asset('/assets/img/logo_white.png') }} 2x"
+                                    alt="" />
+                            </a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -57,8 +57,8 @@
                                 <li class="nav-item ">
                                     <a class="nav-link " href="{{ route('contact') }}">Contact</a>
                                 </li>
-                                
-                                <li class="nav-item ">
+
+                                <li class="nav-item " id="catalogNavItem">
                                     <a class="nav-link " href="{{ route('catalog') }}">Catalog</a>
                                 </li>
                             </ul>
@@ -74,7 +74,7 @@
                             <!--            <a href="#"><i class="uil uil-instagram"></i></a>-->
                             <!--            <a href="#"><i class="uil uil-youtube"></i></a>-->
                             <!--        </nav>-->
-                                    <!-- /.social -->
+                            <!-- /.social -->
                             <!--    </div>-->
                             <!--</div>-->
                             <!-- /.offcanvas-footer -->
@@ -136,19 +136,19 @@
                     <!-- /.widget -->
                 </div>
                 <!-- /column -->
-                <div class="col-md-3 col-lg-3 mx-auto">
+                {{-- <div class="col-md-3 col-lg-3 mx-auto">
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Learn More</h4>
                         <ul class="list-unstyled  mb-0">
                             <li><a href="{{ route('about') }}">About Us</a></li>
                             {{-- <li><a href="#">Our Story</a></li> --}}
-                            {{-- <li><a href="#">Projects</a></li> --}}
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.widget -->
-                </div>
+                {{-- <li><a href="#">Projects</a></li> --}}
+                {{-- <li><a href="#">Terms of Use</a></li> --}}
+                {{-- <li><a href="#">Privacy Policy</a></li> --}}
+                {{-- </ul> --}}
+                {{-- </div> --}}
+                <!-- /.widget -->
+                {{-- </div>  --}}
                 <!-- /column -->
 
                 <!-- /column -->
@@ -184,12 +184,18 @@
         background-color: #001f3f
     }
 
+    #catalogNavItem {
+        display: none;
+    }
+
     @media screen and (min-width: 1401px) {
         .whatsapp-button {
             position: fixed;
             right: 29px;
             bottom: 95px;
         }
+
+
     }
 
     @media screen and (min-width: 1200px) and (max-width:1400px) {
@@ -200,6 +206,7 @@
             width: 40px;
             height: 40px;
         }
+
     }
 
     @media screen and (max-width: 1199px) {
@@ -210,6 +217,10 @@
             width: 40px;
             height: 40px;
         }
+
+        #catalogNavItem {
+            display: block;
+        }
     }
 
     @media screen and (max-width: 768px) {
@@ -219,6 +230,10 @@
             bottom: 68px;
             width: 40px;
             height: 40px;
+        }
+
+        #catalogNavItem {
+            display: block;
         }
     }
 </style>

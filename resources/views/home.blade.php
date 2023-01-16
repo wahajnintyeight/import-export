@@ -183,8 +183,8 @@
                                         alt="" />
                                 </div>
                                 <div>
-                                    <h3 class="fs-25 counter mb-0 text-nowrap">200+</h3>
-                                    <p class="fs-16 lh-sm mb-0 text-nowrap">Happy Clients</p>
+                                    <h3 class="fs-25 counter mb-0 text-nowrap">{{ config('app.customers') }} of</h3>
+                                    <p class="fs-16 lh-sm mb-0 text-nowrap">Happy Customers</p>
                                 </div>
                             </div>
                         </div>
@@ -235,16 +235,16 @@
                                         <img src="./assets/img/icons/solid/target.svg"
                                             class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3"
                                             alt="" />
-                                        <h3 class="counter">150+</h3>
-                                        <p class="mb-0">Completed Projects</p>
+                                        <h3 class="counter">{{ config('app.products') }}</h3>
+                                        <p class="mb-0">{{ config('app.products_text') }}</p>
                                     </div>
                                     <!--/column -->
                                     <div class="col-md-4">
                                         <img src="./assets/img/icons/solid/bar-chart.svg"
                                             class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3"
                                             alt="" />
-                                        <h3 class="counter">2x</h3>
-                                        <p class="mb-0">Revenue Growth</p>
+                                        <h3 class="counter">{{ config('app.premium_quality') }}</h3>
+                                        <p class="mb-0">Premium Quality</p>
                                     </div>
                                     <!--/column -->
                                     <div class="col-md-4">
@@ -355,6 +355,67 @@
             <!-- /.grid-view -->
 
             <!-- /.row -->
+
+            <div class="container pt-10 pt-md-14">
+                <div class="row">
+                    <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+                        <h2 class="fs-15 text-uppercase text-muted mb-3">Latest Products</h2>
+                        <h3 class="display-4 mb-10">Get your hands on our creatively designed, top-of-the-line products
+                            now!
+                        </h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+
+            <div class="container-fluid px-md-6">
+                <div class="swiper-container blog grid-view mb-17 mb-md-19" data-margin="30" data-nav="true"
+                    data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center; "
+                                        src="./assets/img/photos/sliderimg1.jpeg" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg2.png" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg3.jpg" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_820/v1519824400/content-items/002/273/904/V2__86I8505-original.jpg?1519824400"
+                                        alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img
+                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg5.jpg" alt="" />
+                                </figure>
+                            </div>
+                            <!--/.swiper-slide -->
+                        </div>
+                        <!--/.swiper-wrapper -->
+                    </div>
+                    <!-- /.swiper -->
+                </div>
+                <!-- /.swiper-container -->
+            </div>
 
             <!-- /.swiper-container -->
             <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">

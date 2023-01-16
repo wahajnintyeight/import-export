@@ -94,11 +94,11 @@
                     <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
                     <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you
                         shortly.</p>
-                         @if (session()->has('success'))
-                                <div class="alert alert-success">
-                                    {{ session()->get('success') }}
-                                </div>
-                            @endif
+                    @if (session()->has('success'))
+                        <div class="alert alert-success">
+                            {{ session()->get('success') }}
+                        </div>
+                    @endif
                     <form class="contact-form" method="post" action="{{ route('store-contact') }}">
                         @csrf
                         @method('POST')
@@ -142,7 +142,7 @@
                                 <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send">
                                 <p class="text-muted"><strong>*</strong> These fields are required.</p>
                             </div>
-                           
+
                             <!-- /column -->
                         </div>
                         <!-- /.row -->
@@ -161,7 +161,8 @@
         <div class="container pt-0 pb-14 pt-md-16 pb-md-18">
             <div class="row">
                 <div class="col-lg-9 col-xxl-8 mx-auto">
-                    <h3 class="display-4 mb-8 px-xl-12">We are trusted by over 5000+ clients. Join them now and grow your
+                    <h3 class="display-4 mb-8 px-xl-12">We are trusted by over {{ config('app.customers') }} clients. Join
+                        them now and grow your
                         business.</h3>
                 </div>
                 <!-- /.row -->
@@ -171,18 +172,18 @@
                 <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
                     <div class="row align-items-center counter-wrapper gy-4 gy-md-0">
                         <div class="col-md-4 text-center">
-                            <h3 class="counter counter-lg text-primary">150</h3>
-                            <p>Completed Projects</p>
+                            <h3 class="counter counter-lg text-primary">{{ config('app.products') }}</h3>
+                            <p>{{ config('app.products_text') }}</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4 text-center">
-                            <h3 class="counter counter-lg text-primary">300</h3>
-                            <p>Satisfied Customers</p>
+                            <h3 class="counter counter-lg text-primary">{{ config('app.customers') }}</h3>
+                            <p>{{ config('app.customers_text') }}</p>
                         </div>
                         <!--/column -->
                         <div class="col-md-4 text-center">
-                            <h3 class="counter counter-lg text-primary">200</h3>
-                            <p>Expert Employees</p>
+                            <h3 class="counter counter-lg text-primary">{{ config('app.staff') }}</h3>
+                            <p>{{ config('app.staff_text') }}</p>
                         </div>
                         <!--/column -->
                     </div>
