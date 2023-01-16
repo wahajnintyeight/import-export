@@ -18,6 +18,11 @@
         onload="this.rel='stylesheet'">
     <link href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
 </head>
+<style>
+    #catalogNavItem {
+        display: none;
+    }
+</style>
 
 <body>
     <div class="content-wrapper">
@@ -99,8 +104,8 @@
             </nav>
             <!-- /.navbar -->
             <a href="https://api.whatsapp.com/send?phone=447716295728" class="whatsapp-button"
-                style="z-index: 99999 !important;" target="_blank">
-                <img src="{{ asset('assets/img/whatsapp-button.png') }}" alt="botão whatsapp">
+                style="z-index: 99999 !important; " target="_blank">
+                <img src="{{ asset('assets/img/whatsapp-button.png') }}" alt="whatsapp button">
             </a>
         </header>
         @yield('content')
@@ -184,9 +189,13 @@
         background-color: #001f3f
     }
 
-    #catalogNavItem {
-        display: none;
+    .whatsapp-button {
+        position: fixed;
+        right: 29px;
+        bottom: 95px;
     }
+
+
 
     @media screen and (min-width: 1401px) {
         .whatsapp-button {

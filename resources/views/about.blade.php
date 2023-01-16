@@ -17,8 +17,7 @@
                                 <p
                                     class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
                                     We are a creative company that focuses on long term relationships with customers.</p>
-                                <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="#"
-                                        class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
+
                             </div>
                             <!--/column -->
                         </div>
@@ -133,9 +132,11 @@
                                 <div
                                     class="card-body p-6 p-md-11 d-lg-flex flex-row align-items-lg-center justify-content-md-between text-center text-lg-start">
                                     <h3 class="display-6 mb-6 mb-lg-0 pe-lg-10 pe-xl-5 pe-xxl-18 text-white">We are trusted
-                                        by over {{ config('app.customers') }}+ customers. Join them by using our services and
+                                        by over {{ config('app.customers') }}+ customers. Join them by using our services
+                                        and
                                         grow your business.</h3>
-                                    <a href="#" class="btn btn-white rounded-pill mb-0 text-nowrap">Join Us</a>
+                                    <a href="{{ route('contact') }}"
+                                        class="btn btn-white rounded-pill mb-0 text-nowrap">Join Us</a>
                                 </div>
                                 <!--/.card-body -->
                             </div>
@@ -227,7 +228,7 @@
                     <p class="mb-6"> We will handle all of the logistics for you, including arranging transportation,
                         customs clearance, and delivery.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
+            
                 </div>
                 <!--/column -->
             </div>

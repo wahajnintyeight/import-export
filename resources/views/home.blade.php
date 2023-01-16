@@ -15,7 +15,7 @@
                                 <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">At Global Hub Trading, we specialize in providing
                                     a full range of services to businesses of all sizes looking to navigate the global
                                     marketplace.</p>
-                                <div><a href="#gohere" class="btn btn-lg btn-gradient gradient-1 rounded">Explore Now</a>
+                                <div>
                                 </div>
                             </div>
                             <!--/column -->
