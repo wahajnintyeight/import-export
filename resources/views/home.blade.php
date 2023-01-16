@@ -15,7 +15,7 @@
                                 <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">At Global Hub Trading, we specialize in providing
                                     a full range of services to businesses of all sizes looking to navigate the global
                                     marketplace.</p>
-                                <div><a href="#" class="btn btn-lg btn-gradient gradient-1 rounded">Explore Now</a>
+                                <div><a href="#gohere" class="btn btn-lg btn-gradient gradient-1 rounded">Explore Now</a>
                                 </div>
                             </div>
                             <!--/column -->
@@ -37,7 +37,7 @@
         <!-- /.container-card -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-light">
+    <section id="gohere" class="wrapper bg-light">
         <div class="container pt-14 pt-md-17 pb-14 pb-md-18">
             <div class="row text-center">
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">

@@ -94,6 +94,11 @@
                     <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
                     <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you
                         shortly.</p>
+                         @if (session()->has('success'))
+                                <div class="alert alert-success">
+                                    {{ session()->get('success') }}
+                                </div>
+                            @endif
                     <form class="contact-form" method="post" action="{{ route('store-contact') }}">
                         @csrf
                         @method('POST')
@@ -137,11 +142,7 @@
                                 <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send">
                                 <p class="text-muted"><strong>*</strong> These fields are required.</p>
                             </div>
-                            @if (session()->has('success'))
-                                <div class="alert alert-success">
-                                    {{ session()->get('success') }}
-                                </div>
-                            @endif
+                           
                             <!-- /column -->
                         </div>
                         <!-- /.row -->

@@ -27,7 +27,7 @@
             <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
-                        <a href="./index.html">
+                        <a href="{{route('/')}}">
                             <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
                                 width="60%" height="60%" srcset="{{ asset('/assets/img/main_logo.png') }} 2x"
                                 alt="" />
@@ -35,7 +35,11 @@
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
-                            <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+                             <a href="{{route('/')}}">
+                            <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
+                                width="60%" height="60%" srcset="{{ asset('/assets/img/logo_white.png') }} 2x"
+                                alt="" />
+                        </a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -53,22 +57,26 @@
                                 <li class="nav-item ">
                                     <a class="nav-link " href="{{ route('contact') }}">Contact</a>
                                 </li>
+                                
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="{{ route('catalog') }}">Catalog</a>
+                                </li>
                             </ul>
                             <!-- /.navbar-nav -->
-                            <div class="offcanvas-footer d-lg-none">
-                                <div>
-                                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                                    <br /> 00 (123) 456 78 90 <br />
-                                    <nav class="nav social social-white mt-4">
-                                        <a href="#"><i class="uil uil-twitter"></i></a>
-                                        <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                        <a href="#"><i class="uil uil-dribbble"></i></a>
-                                        <a href="#"><i class="uil uil-instagram"></i></a>
-                                        <a href="#"><i class="uil uil-youtube"></i></a>
-                                    </nav>
+                            <!--<div class="offcanvas-footer d-lg-none">-->
+                            <!--    <div>-->
+                            <!--        <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>-->
+                            <!--        <br /> 00 (123) 456 78 90 <br />-->
+                            <!--        <nav class="nav social social-white mt-4">-->
+                            <!--            <a href="#"><i class="uil uil-twitter"></i></a>-->
+                            <!--            <a href="#"><i class="uil uil-facebook-f"></i></a>-->
+                            <!--            <a href="#"><i class="uil uil-dribbble"></i></a>-->
+                            <!--            <a href="#"><i class="uil uil-instagram"></i></a>-->
+                            <!--            <a href="#"><i class="uil uil-youtube"></i></a>-->
+                            <!--        </nav>-->
                                     <!-- /.social -->
-                                </div>
-                            </div>
+                            <!--    </div>-->
+                            <!--</div>-->
                             <!-- /.offcanvas-footer -->
                         </div>
                         <!-- /.offcanvas-body -->
