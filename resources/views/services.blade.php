@@ -260,7 +260,7 @@
                 <div class="row">
                     <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
                         <h2 class="fs-15 text-uppercase text-muted mb-3">Latest Products</h2>
-                        <h3 class="display-4 mb-10">Get your hands on our creatively designed, top-of-the-line products
+                        <h3 class="display-4 mb-10">Global Hub Trading - your partner in FMCG! Top-of-the-line products
                             now!
                         </h3>
                     </div>
@@ -269,42 +269,42 @@
                 <!-- /.row -->
             </div>
             <div class="container-fluid px-md-6">
-                <div class="swiper-container blog grid-view mb-17 mb-md-19" data-margin="30" data-nav="true"
+                <div class="swiper-container blog grid-view mb-17 mb-md-19" data-margin="30" data-nav="false"
                     data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <figure class="rounded"><img
-                                        style="width: 390px;height: 390px !important;object-fit: center; "
-                                        src="./assets/img/photos/sliderimg1.jpeg" alt="" />
+                                        style="width: 390px;height: 32% !important;object-fit: center; "
+                                        src="./assets/img/photos/sliderimg1.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
                                 <figure class="rounded"><img
-                                        style="width: 390px;height: 390px !important;object-fit: center;"
+                                        style="width: 390px;height: 290px !important;object-fit: center;margin-top: 15px;"
                                         src="./assets/img/photos/sliderimg2.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
                                 <figure class="rounded"><img
-                                        style="width: 390px;height: 390px !important;object-fit: center;"
-                                        src="./assets/img/photos/sliderimg3.jpg" alt="" />
+                                        style="width: 420px;height: 327px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/photos/sliderimg3.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
                                 <figure class="rounded"><img
-                                        style="width: 390px;height: 390px !important;object-fit: center;"
-                                        src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_820/v1519824400/content-items/002/273/904/V2__86I8505-original.jpg?1519824400"
+                                        style="width: 390px;height: 340px !important;object-fit: center;"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mountain_Dew_logo.svg/640px-Mountain_Dew_logo.svg.png"
                                         alt="" />
                                 </figure>
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded"><img
-                                        style="width: 390px;height: 390px !important;object-fit: center;"
-                                        src="./assets/img/photos/sliderimg5.jpg" alt="" />
+                                        style="width: 390px;height: 345px !important;object-fit: center;"
+                                        src="./assets/img/photos/sliderimg5.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->

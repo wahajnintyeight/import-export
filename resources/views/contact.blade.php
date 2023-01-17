@@ -52,7 +52,7 @@
                                         </div>
                                     </div>
                                     <!--/div -->
-                                    <div class="d-flex flex-row">
+                                    {{-- <div class="d-flex flex-row">
                                         <div>
                                             <div class="icon text-primary fs-28 me-4 mt-n1"> <i
                                                     class="uil uil-phone-volume"></i> </div>
@@ -61,7 +61,7 @@
                                             <h5 class="mb-1">Phone</h5>
                                             <p>+44-7716-295728</p>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <!--/div -->
                                     <div class="d-flex flex-row">
                                         <div>

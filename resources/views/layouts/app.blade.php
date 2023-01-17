@@ -136,7 +136,7 @@
                         <a href="mailto:office@ghubtrading.co.uk">office@ghubtrading.co.uk</a>
                         <br>
                         <a href="mailto:accounts@ghubtrading.co.uk">accounts@ghubtrading.co.uk</a>
-                        <br /> +44-7716-295728
+                        <br />
                     </div>
                     <!-- /.widget -->
                 </div>
