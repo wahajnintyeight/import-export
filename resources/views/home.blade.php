@@ -360,7 +360,7 @@
                 <div class="row">
                     <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
                         <h2 class="fs-15 text-uppercase text-muted mb-3">Latest Products</h2>
-                        <h3 class="display-4 mb-10">Get your hands on our creatively designed, top-of-the-line products
+                        <h3 class="display-4 mb-10">Global Hub Trading - your partner in FMCG! Top-of-the-line products
                             now!
                         </h3>
                     </div>
