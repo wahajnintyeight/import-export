@@ -273,41 +273,41 @@
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px!important;object-fit: center; "
                                         src="./assets/img/photos/sliderimg1.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center;margin-top: 15px;"
                                         src="./assets/img/photos/sliderimg2.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width:190px;height: 140px !important;object-fit: center; margin-top: 11px;"
                                         src="./assets/img/photos/sliderimg3.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center;"
                                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mountain_Dew_logo.svg/640px-Mountain_Dew_logo.svg.png"
                                         alt="" />
                                 </figure>
                             </div>
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center;"
                                         src="./assets/img/photos/sliderimg5.png" alt="" />
                                 </figure>
                             </div>
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
                                         src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png"
                                         alt="" />
@@ -315,13 +315,13 @@
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center;"
                                         src="./assets/img/photos/sliderimg6.png" alt="" />
                                 </figure>
                             </div>
                             <div class="swiper-slide">
-                                <figure class="rounded"><img
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center;"
                                         src="https://www.pngkey.com/png/full/60-608699_capri-sonne-logo-engl-transparent-capri-sun-logo.png"
                                         alt="" />
