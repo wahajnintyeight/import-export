@@ -306,11 +306,33 @@
                                         src="./assets/img/photos/sliderimg5.png" alt="" />
                                 </figure>
                             </div>
+                            {{-- Red Bull --}}
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
                                         src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png"
                                         alt="" />
+                                </figure>
+                            </div>
+                            {{-- MIRINDA --}}
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/brands/mirinda.png" alt="" />
+                                </figure>
+                            </div>
+                            {{-- AG BAR --}}
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/brands/ag_bar.webp" alt="" />
+                                </figure>
+                            </div>
+                            {{-- Calypso --}}
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/brands/Calypso.webp" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
@@ -325,6 +347,12 @@
                                         style="width: 190px;height: 140px !important;object-fit: center;"
                                         src="https://www.pngkey.com/png/full/60-608699_capri-sonne-logo-engl-transparent-capri-sun-logo.png"
                                         alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center;"
+                                        src="./assets/img/brands/sprite.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->

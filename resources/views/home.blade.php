@@ -3,16 +3,17 @@
     <!-- /header -->
     <section class="wrapper bg-light">
         <div class="container-card">
-            <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mt-2 mb-5"
-                data-image-src="./assets/img/photos/bg22.png">
+            <div class="card image-wrapper bg-full bg-image   mt-2 mb-5" data-image-src="./assets/img/grad.jpg">
                 <div class="card-body py-14 px-0">
                     <div class="container">
                         <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
                             <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
-                                <h1 class="display-2 mb-4 me-xl-5 me-xxl-0">Navigating the<span
-                                        class="text-gradient gradient-1"> Global Marketplace </span> with Expertise and
+                                <h1 class="display-2 mb-4 me-xl-5 me-xxl-0 text-white">Navigating the<span
+                                        class="text-white"> Global Marketplace </span> with Expertise and
                                     Efficiency.</h1>
-                                <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">At Global Hub Trading, we specialize in providing
+                                <p class="text-gray-300 fs-23 lh-sm mb-7 pe-xxl-15 " style="color: rgb(238, 238, 238)">At
+                                    Global Hub Trading, we
+                                    specialize in providing
                                     a full range of services to businesses of all sizes looking to navigate the global
                                     marketplace.</p>
                                 <div>
@@ -407,11 +408,33 @@
                                         src="./assets/img/photos/sliderimg5.png" alt="" />
                                 </figure>
                             </div>
+                            {{-- Red Bull --}}
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
                                         style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
                                         src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png"
                                         alt="" />
+                                </figure>
+                            </div>
+                            {{-- MIRINDA --}}
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/brands/mirinda.png" alt="" />
+                                </figure>
+                            </div>
+                            {{-- AG BAR --}}
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/brands/ag_bar.webp" alt="" />
+                                </figure>
+                            </div>
+                            {{-- Calypso --}}
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
+                                        src="./assets/img/brands/Calypso.webp" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
@@ -426,6 +449,12 @@
                                         style="width: 190px;height: 140px !important;object-fit: center;"
                                         src="https://www.pngkey.com/png/full/60-608699_capri-sonne-logo-engl-transparent-capri-sun-logo.png"
                                         alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 190px;height: 140px !important;object-fit: center;"
+                                        src="./assets/img/brands/sprite.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->

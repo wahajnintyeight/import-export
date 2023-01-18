@@ -115,9 +115,10 @@
 
                         </div>
                         <!--/column -->
-                        <div class="col-md-4"> <img src="./assets/img/brands/capri.png"
-                                class="svg-inject icon-svg icon-svg-md text-yellow mb-3" style="width:100px"
-                                alt="" />
+                        <div class="col-md-4 mt-4 sm:mt-4 xs:mt-4"> <img src="./assets/img/brands/capri.png"
+                                class="svg-inject icon-svg icon-svg-md text-yellow mb-3"
+                                style="    width: 139px;
+                                height: 77px;" alt="" />
                             <h4 class="mb-1">Caprissun</h4>
 
                         </div>
