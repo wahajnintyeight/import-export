@@ -374,27 +374,25 @@
                         </div>
                         <div>
                             <h5 class="mb-1">Address</h5>
-                            <address>Moonshine St. 14/05 Light City, <br class="d-none d-md-block" />London, United
-                                Kingdom</address>
+                            <address>Former Princess ltd <br>
+                                Unit A2 Lord North Street
+                                Manchester M40 2HJ <br class="d-none d-md-block" /> Manchester M40 2HJ</address>
                         </div>
                     </div>
-                    <div class="d-flex flex-row">
-                        <div>
-                            <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-phone-volume"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Phone</h5>
-                            <p>00 (123) 456 78 90</p>
-                        </div>
-                    </div>
+
                     <div class="d-flex flex-row">
                         <div>
                             <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-envelope"></i> </div>
                         </div>
                         <div>
                             <h5 class="mb-1">E-mail</h5>
-                            <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">sandbox@email.com</a>
+                            <p class="mb-0">
+                                <a href="mailto:office@ghubtrading.co.uk" class="link-body">
+                                    office@ghubtrading.co.uk
+                                </a>
+                                <a href="mailto:accounts@ghubtrading.co.uk" class="link-body">
+                                    accounts@ghubtrading.co.uk
+                                </a>
                             </p>
                         </div>
                     </div>

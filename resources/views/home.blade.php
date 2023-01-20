@@ -21,7 +21,7 @@
                             </div>
                             <!--/column -->
                             <div class="col-lg-6">
-                                <img class="img-fluid mb-n18 pb-4" src="./assets/img/illustrations/main.png"
+                                <img class="img-fluid mt-10 pb-4" src="./assets/img/illustrations/main.png"
                                     style="width:600px;height:350px" srcset="./assets/img/illustrations/main.png 2x"
                                     data-cue="fadeIn" data-delay="300" alt="" />
                             </div>
@@ -137,7 +137,7 @@
             <!--/.row -->
             <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
                 <div class="col-lg-5 offset-lg-1 rounded-xl shadow-md">
-                    <figure><img class="w-auto " src="./assets/img/containers/c4.jpg"
+                    <figure><img class="w-full" src="./assets/img/containers/c4.jpg"
                             srcset="./assets/img/containers/c4.jpg 2x" alt="" /></figure>
                 </div>
                 <!--/column -->
@@ -376,84 +376,81 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px!important;object-fit: center; "
+                                        style="width: 165px;height: 159px!important;object-fit: center;margin-top:-3px"
                                         src="./assets/img/photos/sliderimg1.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center;margin-top: 15px;"
+                                        style="width: 153px;height: 150px !important;object-fit: center;margin-top: -2px;"
                                         src="./assets/img/photos/sliderimg2.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width:190px;height: 140px !important;object-fit: center; margin-top: 11px;"
-                                        src="./assets/img/photos/sliderimg3.png" alt="" />
+                                        style="width: 141px;height: 140px !important;object-fit: center; margin-top: 1px;"
+                                        src="./assets/img/photos/fanTaa.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
-                            <div class="swiper-slide">
-                                <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center;"
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mountain_Dew_logo.svg/640px-Mountain_Dew_logo.svg.png"
-                                        alt="" />
-                                </figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center;"
-                                        src="./assets/img/photos/sliderimg5.png" alt="" />
-                                </figure>
-                            </div>
                             {{-- Red Bull --}}
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
-                                        src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png"
-                                        alt="" />
+                                        style="width: 141px;height: 140px !important;object-fit: center; margin-top: 1px;"
+                                        src="./assets/img/photos/redbull.png" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 141px;height: 140px !important;object-fit: center;"
+                                        src="./assets/img/photos/maxresdefault.png" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded text-center xs:text-center sm:text-center"><img
+                                        style="width: 192px;height: 157px !important;object-fit: center;margin-top:-10px"
+                                        src="./assets/img/photos/sliderimg5.png" alt="" />
                                 </figure>
                             </div>
                             {{-- MIRINDA --}}
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
-                                        src="./assets/img/brands/mirinda.png" alt="" />
+                                        style="width: 141px;height: 140px !important;object-fit: center;"
+                                        src="./assets/img/photos/mirinda.png" alt="" />
                                 </figure>
                             </div>
                             {{-- AG BAR --}}
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
-                                        src="./assets/img/brands/ag_bar.webp" alt="" />
+                                        style="width: 141px;height: 140px !important;object-fit: center; margin-top: 0px;"
+                                        src="./assets/img/photos/agbarr.png" alt="" />
                                 </figure>
                             </div>
                             {{-- Calypso --}}
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center; margin-top: 11px;"
-                                        src="./assets/img/brands/Calypso.webp" alt="" />
+                                        style="width: 141px;height: 140px !important;object-fit: center;"
+                                        src="./assets/img/photos/calypso.png" alt="" />
                                 </figure>
                             </div>
                             <!--/.swiper-slide -->
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center;"
-                                        src="./assets/img/photos/sliderimg6.png" alt="" />
+                                        style="width: 141px;height: 140px !important;object-fit: center;"
+                                        src="./assets/img/photos/monster-energy.png" alt="" />
                                 </figure>
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center;"
-                                        src="https://www.pngkey.com/png/full/60-608699_capri-sonne-logo-engl-transparent-capri-sun-logo.png"
-                                        alt="" />
+                                        style="width: 148px;height: 147px !important;object-fit: center;margin-top:-1px"
+                                        src="./assets/img/photos/caprisun.png" alt="" />
                                 </figure>
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded text-center xs:text-center sm:text-center"><img
-                                        style="width: 190px;height: 140px !important;object-fit: center;"
+                                        style="width: 232px;height: 137px !important;object-fit: center;margin-top:3px"
                                         src="./assets/img/brands/sprite.png" alt="" />
                                 </figure>
                             </div>
