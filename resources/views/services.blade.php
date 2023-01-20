@@ -19,25 +19,25 @@
         <div class="container pb-14 pb-md-16">
             <div class="row mb-8">
                 <div class="col-12 mt-n20">
-                    <figure class="rounded"><img src="{{ '/assets/img/containers/constructors.jpg' }}"
-                            srcset="{{ '/assets/img/photos/about5@2x.jpg' }} 2x" alt="" /></figure>
+                    <figure class="rounded"><img src="{{ '/assets/img/photos/truck_container.jpg' }}" style="height: 400px"
+                            srcset="{{ '/assets/img/photos/truck_container.jpg' }} 2x" alt="" /></figure>
                     <div class="row">
                         <div class="col-xl-10 mx-auto">
                             <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400 text-white mt-n5 mt-lg-0 mt-lg-n50p mb-lg-n50p border-radius-lg-top"
                                 data-image-src="{{ '/assets/img/photos/bg3.jpg' }}">
                                 <div class="card-body p-9 p-xl-10">
                                     <div class="row align-items-center counter-wrapper gy-4 text-center">
-                                        <div class="col-6 col-lg-4">
+                                        <div class="col-6 col-lg-4 col-xs-2">
                                             <h3 class="counter counter-lg text-white">{{ config('app.products') }}</h3>
                                             <p>{{ config('app.products_text') }}</p>
                                         </div>
                                         <!--/column -->
-                                        <div class="col-6 col-lg-4">
+                                        <div class="col-6 col-lg-4 col-xs-2">
                                             <h3 class="counter counter-lg text-white">{{ config('app.customers') }}</h3>
                                             <p>{{ config('app.customers_text') }}</p>
                                         </div>
                                         <!--/column -->
-                                        <div class="col-6 col-lg-4">
+                                        <div class="col-6 col-lg-4 col-xs-2">
                                             <h3 class="counter counter-lg text-white">{{ config('app.staff') }}</h3>
                                             <p>{{ config('app.staff_text') }}</p>
                                         </div>
@@ -66,22 +66,22 @@
                     <div class="row gx-md-5 gy-5">
                         <div class="col-md-4 offset-md-2 align-self-end">
                             <figure class="rounded"><img src="{{ '/assets/img/containers/c5.jpg' }}"
-                                    srcset="{{ '/assets/img/photos/g1@2x.jpg' }} 2x" alt=""></figure>
+                                    srcset="{{ '/assets/img/containers/c5.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 align-self-end">
                             <figure class="rounded"><img src="{{ '/assets/img/containers/c6.jpg' }}"
-                                    srcset="{{ '/assets/img/photos/g2@2x.jpg' }} 2x" alt=""></figure>
+                                    srcset="{{ '/assets/img/containers/c6.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 offset-md-1">
                             <figure class="rounded"><img src="{{ '/assets/img/containers/c7.jpg' }}"
-                                    srcset="{{ '/assets/img/photos/g3@2x.jpg' }} 2x" alt=""></figure>
+                                    srcset="{{ '/assets/img/containers/c7.jpg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-4 align-self-start">
-                            <figure class="rounded"><img src="{{ '/assets/img/containers/ppl.jpg' }}"
-                                    srcset="{{ '/assets/img/photos/g4@2x.jpg' }} 2x" alt=""></figure>
+                            <figure class="rounded"><img src="{{ '/assets/img/photos/stock.jpeg' }}"
+                                    srcset="{{ '/assets/img/photos/stock.jpeg' }} 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                     </div>
@@ -239,7 +239,7 @@
         <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="{{ '/assets/img/workers/w4.jpg' }}">
+    <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="{{ '/assets/img/photos/stock4.jpg' }}">
         <div class="container py-18 text-center">
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-xxl-8 mx-auto">

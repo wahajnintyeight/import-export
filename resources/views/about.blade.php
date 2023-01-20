@@ -6,7 +6,7 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-                    data-image-src="./assets/img/workers/w5.jpg">
+                    data-image-src="./assets/img/photos/slider_one.jpeg">
                     <div class="container h-100">
                         <div class="row h-100">
                             <div
@@ -26,8 +26,8 @@
                     <!--/.container -->
                 </div>
                 <!--/.swiper-slide -->
-                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-                    data-image-src="./assets/img/workers/w6.jpg">
+                <div class="swiper-slide bg-overlay bg-overlay-400 p-4 bg-dark bg-image"
+                    data-image-src="./assets/img/photos/photo-1515696714770-da5756213026.jpg">
                     <div class="container h-100">
                         <div class="row h-100">
                             <div
@@ -45,7 +45,7 @@
                 </div>
                 <!--/.swiper-slide -->
                 <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-                    data-image-src="./assets/img/workers/w7.jpg">
+                    data-image-src="./assets/img/photos/1000_F_288402206_1HVdIbXeTGlYERu72Jq0Q4SJAZfBxXoo.jpg">
                     <div class="container h-100">
                         <div class="row h-100">
                             <div
@@ -81,12 +81,12 @@
                         style="top: 3rem; left: 5.5rem"></div>
                     <div class="overlap-grid overlap-grid-2">
                         <div class="item">
-                            <figure class="rounded shadow"><img src="./assets/img/workers/w8.webp"
-                                    srcset="./assets/img/photos/about2@2x.jpg 2x" alt=""></figure>
+                            <figure class="rounded shadow"><img src="./assets/img/photos/warehouse.jpeg"
+                                    srcset="./assets/img/photos/warehouse.jpeg 2x" alt=""></figure>
                         </div>
                         <div class="item">
-                            <figure class="rounded shadow"><img src="./assets/img/workers/w9.avif"
-                                    srcset="./assets/img/photos/about3@2x.jpg 2x" alt=""></figure>
+                            <figure class="rounded shadow"><img src="./assets/img/photos/forklift.jpeg"
+                                    srcset="./assets/img/photos/forklift.jpeg 2x" alt=""></figure>
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@
                     <p class="mb-6"> We will handle all of the logistics for you, including arranging transportation,
                         customs clearance, and delivery.</p>
 
-            
+
                 </div>
                 <!--/column -->
             </div>

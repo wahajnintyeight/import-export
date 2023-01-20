@@ -21,9 +21,9 @@
                             </div>
                             <!--/column -->
                             <div class="col-lg-6">
-                                <img class="img-fluid mb-n18" src="./assets/img/illustrations/3d6.png"
-                                    srcset="./assets/img/illustrations/3d6@2x.png 2x" data-cue="fadeIn" data-delay="300"
-                                    alt="" />
+                                <img class="img-fluid mb-n18 pb-4" src="./assets/img/illustrations/main.png"
+                                    style="width:600px;height:350px" srcset="./assets/img/illustrations/main.png 2x"
+                                    data-cue="fadeIn" data-delay="300" alt="" />
                             </div>
                             <!--/column -->
                         </div>
@@ -138,7 +138,7 @@
             <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
                 <div class="col-lg-5 offset-lg-1 rounded-xl shadow-md">
                     <figure><img class="w-auto " src="./assets/img/containers/c4.jpg"
-                            srcset="./assets/img/illustrations/3d2@2x.png 2x" alt="" /></figure>
+                            srcset="./assets/img/containers/c4.jpg 2x" alt="" /></figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-5 offset-lg-1">
@@ -173,7 +173,7 @@
             <!--/.row -->
             <div class="row gx-md-8 gy-10 align-items-center">
                 <div class="col-lg-6 offset-lg-1 order-lg-2 position-relative">
-                    <figure class="rounded"><img class="img-fluid" src="./assets/img/photos/about27.jpg"
+                    <figure class="rounded"><img class="img-fluid" src="./assets/img/photos/stock.jpeg"
                             srcset="./assets/img/photos/about27@2x.jpg 2x" alt="" /></figure>
                     <div class="card shadow-lg position-absolute d-none d-md-block" style="top: 15%; left: -7%">
                         <div class="card-body py-4 px-5">
@@ -471,17 +471,17 @@
                 <div class="col-lg-6">
                     <div class="row gx-md-5 gy-5">
                         <div class="col-md-6">
-                            <figure class="rounded"><img src="{{ asset('/assets/img/containers/c1.jpg') }}"
+                            <figure class="rounded"><img src="{{ asset('/assets/img/photos/stock3.jpg') }}"
                                     srcset="./assets/img/photos/g12@2x.jpg 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 align-self-end">
-                            <figure class="rounded"><img src="{{ asset('/assets/img/containers/c2.jpg') }}"
+                            <figure class="rounded"><img src="{{ asset('/assets/img/photos/stock2.jpg') }}"
                                     srcset="./assets/img/photos/g13@2x.jpg 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-12">
-                            <figure class="rounded mx-md-5"><img src="{{ asset('/assets/img/containers/c3.jpg') }}"
+                            <figure class="rounded mx-md-5"><img src="{{ asset('/assets/img/photos/stock1.jpg') }}"
                                     srcset="./assets/img/photos/g11@2x.jpg 2x" alt=""></figure>
                         </div>
                         <!--/column -->
