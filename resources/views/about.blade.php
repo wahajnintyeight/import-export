@@ -360,7 +360,7 @@
                     <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1"
                         style="top: -2rem; left: -1.4rem;"></div>
                     <figure class="rounded"><img src="./assets/img/workers/w1.jpg"
-                            srcset="./assets/img/photos/about4@2x.jpg 2x" alt=""></figure>
+                            srcset="./assets/img/workers/w1.jpg 2x" alt=""></figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">

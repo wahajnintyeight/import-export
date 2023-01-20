@@ -174,7 +174,7 @@
             <div class="row gx-md-8 gy-10 align-items-center">
                 <div class="col-lg-6 offset-lg-1 order-lg-2 position-relative">
                     <figure class="rounded"><img class="img-fluid" src="./assets/img/photos/stock.jpeg"
-                            srcset="./assets/img/photos/about27@2x.jpg 2x" alt="" /></figure>
+                            srcset="./assets/img/photos/stock.jpeg 2x" alt="" /></figure>
                     <div class="card shadow-lg position-absolute d-none d-md-block" style="top: 15%; left: -7%">
                         <div class="card-body py-4 px-5">
                             <div class="d-flex flex-row align-items-center">
@@ -469,17 +469,17 @@
                     <div class="row gx-md-5 gy-5">
                         <div class="col-md-6">
                             <figure class="rounded"><img src="{{ asset('/assets/img/photos/stock3.jpg') }}"
-                                    srcset="./assets/img/photos/g12@2x.jpg 2x" alt=""></figure>
+                                    srcset="./assets/img/photos/stock3.jpg 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-md-6 align-self-end">
                             <figure class="rounded"><img src="{{ asset('/assets/img/photos/stock2.jpg') }}"
-                                    srcset="./assets/img/photos/g13@2x.jpg 2x" alt=""></figure>
+                                    srcset="./assets/img/photos/stock2.jpg 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                         <div class="col-12">
                             <figure class="rounded mx-md-5"><img src="{{ asset('/assets/img/photos/stock1.jpg') }}"
-                                    srcset="./assets/img/photos/g11@2x.jpg 2x" alt=""></figure>
+                                    srcset="./assets/img/photos/stock1.jpg 2x" alt=""></figure>
                         </div>
                         <!--/column -->
                     </div>
