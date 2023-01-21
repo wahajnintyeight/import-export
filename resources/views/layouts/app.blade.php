@@ -33,17 +33,15 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
                         <a href="{{ route('/') }}">
-                            <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
-                                width="60%" height="60%" srcset="{{ asset('/assets/img/main_logo.png') }} 2x"
-                                alt="" />
+                            <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1 mainlogo"
+                                srcset="{{ asset('/assets/img/main_logo.png') }} 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
                             <a href="{{ route('/') }}">
-                                <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1"
-                                    width="60%" height="60%" srcset="{{ asset('/assets/img/logo_white.png') }} 2x"
-                                    alt="" />
+                                <img src="{{ asset('/assets/img/main_logo.png') }}" class="mx-auto w-1/2 mb-1 mainlogo"
+                                    srcset="{{ asset('/assets/img/logo_white.png') }} 2x" alt="" />
                             </a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
@@ -189,6 +187,11 @@
         background-color: #001f3f
     }
 
+    .mainlogo {
+        width: 60%;
+        height: 60%;
+    }
+
     .whatsapp-button {
         position: fixed;
         right: 29px;
@@ -239,6 +242,11 @@
             bottom: 68px;
             width: 40px;
             height: 40px;
+        }
+
+        .mainlogo {
+            width: 99%;
+            height: 60%;
         }
 
         #catalogNavItem {
